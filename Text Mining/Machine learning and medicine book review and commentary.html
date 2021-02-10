@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9 -->
+<html lang="en" class="js" style="--font-family-sans:Europa; --font-family-serif:Noto Serif;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Machine learning and medicine: book review and commentary | BioMedical Engineering OnLine | Full Text</title>
+
+        
+
+    <meta name="citation_abstract" content="This article is a review of the book “Master machine learning algorithms, discover how they work and implement them from scratch” (ISBN: not available, 37 USD, 163 pages) edited by Jason Brownlee published by the Author, edition, v1.10 
+                  http://MachineLearningMastery.com
+                  
+                . An accompanying commentary discusses some of the issues that are involved with use of machine learning and data mining techniques to develop predictive models for diagnosis or prognosis of disease, and to call attention to additional requirements for developing diagnostic and prognostic algorithms that are generally useful in medicine. Appendix provides examples that illustrate potential problems with machine learning that are not addressed in the reviewed book.">
+
+    <meta name="description" content="This article is a review of the book “Master machine learning algorithms, discover how they work and implement them from scratch” (ISBN: not available, 37 USD, 163 pages) edited by Jason Brownlee published by the Author, edition, v1.10 
+                  http://MachineLearningMastery.com
+                  
+                . An accompanying commentary discusses some of the issues that are involved with use of machine learning and data mining techniques to develop predictive models for diagnosis or prognosis of disease, and to call attention to additional requirements for developing diagnostic and prognostic algorithms that are generally useful in medicine. Appendix provides examples that illustrate potential problems with machine learning that are not addressed in the reviewed book.">
+
+    <meta name="journal_id" content="12938">
+
+    <meta name="dc.title" content="Machine learning and medicine: book review and commentary">
+
+    <meta name="dc.source" content="BioMedical Engineering OnLine 2018 17:1">
+
+    <meta name="dc.format" content="text/html">
+
+    <meta name="dc.publisher" content="BioMed Central">
+
+    <meta name="dc.date" content="2018-02-01">
+
+    <meta name="dc.type" content="BookReview">
+
+    <meta name="dc.language" content="En">
+
+    <meta name="dc.copyright" content="2018 The Author(s)">
+
+    <meta name="dc.rightsAgent" content="reprints@biomedcentral.com">
+
+    <meta name="dc.description" content="This article is a review of the book “Master machine learning algorithms, discover how they work and implement them from scratch” (ISBN: not available, 37 USD, 163 pages) edited by Jason Brownlee published by the Author, edition, v1.10 
+                  http://MachineLearningMastery.com
+                  
+                . An accompanying commentary discusses some of the issues that are involved with use of machine learning and data mining techniques to develop predictive models for diagnosis or prognosis of disease, and to call attention to additional requirements for developing diagnostic and prognostic algorithms that are generally useful in medicine. Appendix provides examples that illustrate potential problems with machine learning that are not addressed in the reviewed book.">
+
+    <meta name="prism.issn" content="1475-925X">
+
+    <meta name="prism.publicationName" content="BioMedical Engineering OnLine">
+
+    <meta name="prism.publicationDate" content="2018-02-01">
+
+    <meta name="prism.volume" content="17">
+
+    <meta name="prism.number" content="1">
+
+    <meta name="prism.section" content="BookReview">
+
+    <meta name="prism.startingPage" content="17">
+
+    <meta name="prism.copyright" content="2018 The Author(s)">
+
+    <meta name="prism.rightsAgent" content="reprints@biomedcentral.com">
+
+    <meta name="prism.url" content="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9">
+
+    <meta name="prism.doi" content="doi:10.1186/s12938-018-0449-9">
+
+    <meta name="citation_pdf_url" content="https://biomedical-engineering-online.biomedcentral.com/track/pdf/10.1186/s12938-018-0449-9">
+
+    <meta name="citation_fulltext_html_url" content="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9">
+
+    <meta name="citation_journal_title" content="BioMedical Engineering OnLine">
+
+    <meta name="citation_publisher" content="BioMed Central">
+
+    <meta name="citation_issn" content="1475-925X">
+
+    <meta name="citation_title" content="Machine learning and medicine: book review and commentary">
+
+    <meta name="citation_volume" content="17">
+
+    <meta name="citation_issue" content="1">
+
+    <meta name="citation_publication_date" content="2018/12">
+
+    <meta name="citation_online_date" content="2018/02/01">
+
+    <meta name="citation_firstpage" content="17">
+
+    <meta name="citation_article_type" content="Book Review">
+
+    <meta name="citation_fulltext_world_readable" content="">
+
+    <meta name="dc.identifier" content="doi:10.1186/s12938-018-0449-9">
+
+    <meta name="DOI" content="10.1186/s12938-018-0449-9">
+
+    <meta name="citation_doi" content="10.1186/s12938-018-0449-9">
+
+    <meta name="dc.creator" content="Robert Koprowski">
+
+    <meta name="dc.creator" content="Kenneth R. Foster">
+
+    <meta name="dc.subject" content="Biomedical Engineering">
+
+    <meta name="dc.subject" content="Biomaterials">
+
+    <meta name="dc.subject" content="Biotechnology">
+
+    <meta name="dc.subject" content="Biomedical Engineering/Biotechnology">
+
+    <meta name="citation_reference" content="citation_journal_title=Circulation; citation_title=Machine learning in medicine; citation_author=RC Deo; citation_volume=132; citation_issue=20; citation_publication_date=2015; citation_pages=1920-1930; citation_doi=10.1161/CIRCULATIONAHA.115.001593; citation_id=CR1">
+
+    <meta name="citation_reference" content="citation_journal_title=Methods Mol Biol; citation_title=Introduction to machine learning; citation_author=Y Baştanlar, M Ozuysal; citation_volume=1107; citation_publication_date=2014; citation_pages=105-128; citation_doi=10.1007/978-1-62703-748-8_7; citation_id=CR2">
+
+    <meta name="citation_reference" content="citation_title=An introduction to statistical learning; citation_publication_date=2013; citation_id=CR3; citation_author=G James; citation_author=D Witten; citation_author=T Hastie; citation_author=R Tibshirani; citation_publisher=Springer">
+
+    <meta name="citation_reference" content="citation_title=A first course in machine learning; citation_publication_date=2012; citation_isbn=978-1-4398-2414-6; citation_id=CR4; citation_author=S Rogers; citation_author=M Girolami; citation_publisher=CRC Press Inc">
+
+    <meta name="citation_reference" content="citation_title=Machine learning, a probabilistic perspective; citation_publication_date=2012; citation_isbn=9780262306164; citation_id=CR5; citation_author=PM Kevin; citation_publisher=MIT Press">
+
+    <meta name="citation_reference" content="Ivezic A. Statistics, data mining, and machine learning in astronomy, practical python guide for the analysis of survey data. Georgia: University Press Group Ltd; 2014. ISBN 9780691151687.">
+
+    <meta name="citation_reference" content="citation_journal_title=Comput Methods Progr Biomed; citation_title=A data mining approach for diagnosis of coronary artery disease; citation_author=R Alizadehsani; citation_volume=111; citation_issue=1; citation_publication_date=2013; citation_pages=52-61; citation_doi=10.1016/j.cmpb.2013.03.004; citation_id=CR7">
+
+    <meta name="citation_reference" content="James D. McCaffrey, 
+                    https://jamesmccaffrey.wordpress.com/2017/08/25/habermans-survival-data/
+                    
+                  . Accessed 29 Jan 2018.">
+
+    <meta name="citation_reference" content="citation_journal_title=Clinics; citation_title=Diagnostic models of the pre-test probability of stable coronary artery disease: a systematic review; citation_author=T He, X Liu, N Xu, Y Li, Q Wu, M Liu, H Yuan; citation_volume=72; citation_issue=3; citation_publication_date=2017; citation_pages=188-196; citation_doi=10.6061/clinics/2017(03)10; citation_id=CR9">
+
+    <meta name="citation_reference" content="Korley FK, Gatsonis C, Snyder BS, George RT, Abd T, Zimmerman SL, Litt HI, Hollander JE. Clinical risk factors alone are inadequate for predicting significant coronary artery disease. J Cardiovasc Comput Tomogr. 2017;11(4):309–16.">
+
+    <meta name="citation_reference" content="citation_journal_title=Breast Cancer Res; citation_title=PREDICT: a new UK prognostic model that predicts survival following surgery for invasive breast cancer; citation_author=GC Wishart, EM Azzato, DC Greenberg, J Rashbass, O Kearins, G Lawrence, C Caldas, PD Pharoah; citation_volume=12; citation_issue=1; citation_publication_date=2010; citation_pages=R1; citation_doi=10.1186/bcr2464; citation_id=CR11">
+
+    <meta name="citation_reference" content="citation_journal_title=J Am Med Inform Assoc; citation_title=Opportunities and challenges in developing risk prediction models with electronic health records data: a systematic review; citation_author=BA Goldstein; citation_volume=24; citation_issue=1; citation_publication_date=2017; citation_pages=198-208; citation_doi=10.1093/jamia/ocw042; citation_id=CR12">
+
+    <meta name="citation_reference" content="Goldstein BA, Navar AM, Carter RE. Moving beyond regression techniques in cardiovascular risk prediction: applying machine learning to address analytic challenges. Eur Heart J. 2016;38(23):1805–14.">
+
+    <meta name="citation_reference" content="citation_journal_title=Cancer Inform; citation_title=Applications of machine learning in cancer prediction and prognosis; citation_author=Joseph A Cruz, David S Wishart; citation_volume=2; citation_publication_date=2006; citation_pages=59; citation_doi=10.1177/117693510600200030; citation_id=CR14">
+
+    <meta name="citation_reference" content="Luo W, Phung D, Tran T, Gupta S, Rana S, Karmakar C, Shilton A, Yearwood J, Dimitrova N, Ho TB, Venkatesh S. Guidelines for developing and reporting machine learning predictive models in biomedical research: a multidisciplinary view. J Med Internet Res. 2016;18(12):e323.">
+
+    <meta name="citation_reference" content="citation_journal_title=Circ Res; citation_title=Cardiovascular event prediction by machine learning: the Multi-Ethnic Study of Atherosclerosis; citation_author=B Ambale-Venkatesh, X Yang, CO Wu, K Liu, WG Hundley, R McClelland, AS Gomes, AR Folsom, S Shea, E Guallar, DA Bluemke, JAC Lima; citation_volume=121; citation_publication_date=2017; citation_pages=1092-1101; citation_doi=10.1161/CIRCRESAHA.117.311312; citation_id=CR16">
+
+    <meta name="citation_reference" content="Haberman SJ. Generalized residuals for log-linear models, proceedings of the 9th International Biometrics Conference, Boston, 1976;104–122.">
+
+    <meta name="citation_reference" content="citation_journal_title=J Am Stat Assoc; citation_title=Graphical models for assessing logistic regression models (with discussion); citation_author=JM Landwehr, D Pregibon, AC Shoemaker; citation_volume=79; citation_publication_date=1984; citation_pages=61-83; citation_doi=10.1080/01621459.1984.10477062; citation_id=CR18">
+
+    <meta name="citation_author" content="Robert Koprowski">
+
+    <meta name="citation_author_institution" content="Department of Biomedical Computer Systems, Faculty of Computer Science and Materials Science, Institute of Computer Science, University of Silesia, Sosnowiec, Poland">
+
+    <meta name="citation_author" content="Kenneth R. Foster">
+
+    <meta name="citation_author_institution" content="Department of Bioengineering, University of Pennsylvania, Philadelphia, USA">
+
+
+
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- For IE 9 and below -->
+<!--[if IE]><link rel="shortcut icon" href=/static/images/favicons//favicon.ico><![endif]-->
+<!-- Touch Icons - iOS and Android 2.1+ -->
+<link rel="apple-touch-icon" href="https://biomedical-engineering-online.biomedcentral.com/static/images/favicons/bmc/favicon-3f5c56eaaa.png">
+<!-- Firefox, Chrome, Safari, IE 11+ and Opera -->
+<link rel="icon" href="https://biomedical-engineering-online.biomedcentral.com/static/images/favicons/bmc/favicon-3f5c56eaaa.png">
+
+
+        <script type="text/javascript" src="./Machine learning and medicine book review and commentary_files/get"></script><script type="text/javascript" src="./Machine learning and medicine book review and commentary_files/optout_check"></script><script src="./Machine learning and medicine book review and commentary_files/osd.js.download"></script><script type="text/javascript" src="./Machine learning and medicine book review and commentary_files/bd339c69-af54-4a21-b4f1-654bcfcd83ca(1)"></script><script src="./Machine learning and medicine book review and commentary_files/pubads_impl_rendering_301.js.download"></script><script async="" src="./Machine learning and medicine book review and commentary_files/controltag.js.09ebc571a022d419934530eaf14c8a78"></script><script src="./Machine learning and medicine book review and commentary_files/aC6.js.download"></script><script type="text/javascript" async="" src="./Machine learning and medicine book review and commentary_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Machine learning and medicine book review and commentary_files/KDqylSLE.js.download"></script><script type="text/javascript" async="" src="./Machine learning and medicine book review and commentary_files/MathJax.js.download"></script><script async="" src="./Machine learning and medicine book review and commentary_files/gtm.js.download"></script><script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+        <script>(function(d){if (sessionStorage.fontsLoaded){d.style.setProperty('--font-family-sans', 'Europa');d.style.setProperty('--font-family-serif', 'Noto Serif')}})(document.documentElement);</script>
+
+        <link rel="stylesheet" media="screen" href="./Machine learning and medicine book review and commentary_files/basic-669e83dfce.css">
+<link rel="stylesheet" media="print" href="./Machine learning and medicine book review and commentary_files/print-7680b1a80b.css">
+
+<link rel="stylesheet" class="js-ctm" href="./Machine learning and medicine book review and commentary_files/main-44950ec2de.css" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+
+        
+
+        <script src="./Machine learning and medicine book review and commentary_files/app-bundle-8d7f31e536.js.download" defer=""></script>
+        
+        <script>
+            window.airbrakeErrors = [];
+            window.onerror = function(error) {window.airbrakeErrors.push(error);}
+        </script>
+        
+    <script type="text/javascript">
+        config = {
+            env: 'live',
+            site: 'biomedical-engineering-online.biomedcentral.com',
+            siteWithPath: 'biomedical-engineering-online.biomedcentral.com' + window.location.pathname,
+            twitterHashtag: '',
+            cmsPrefix: 'https://studio-cms.springernature.com/studio/',
+            
+            doi: '10.1186/s12938-018-0449-9',
+            figshareScriptUrl: 'https://widgets.figshare.com/static/figshare.js',
+            publisherBrand: 'BioMed Central'
+        };
+    </script>
+
+        <!-- SpringerLink's event tracker, as per: https://github.com/springernature/springerlink-event-tracker -->
+
+<script type="text/javascript">
+document.addEventListener('dataLayerCreated', function() {
+    var script = document.createElement('script');
+    script.id = 'springerlink-event-tracker';
+    script.src = 'https://event-tracker.springernature.com/dist/eventTracker.js';
+    script.onload = function () {
+        var dL;
+        var doi;
+        var imprint;
+        var bpids;
+        var publisher;
+        var pageType;
+        var eventObject;
+
+        for (var i = 0; i < window.dataLayer.length; i++) {
+            if (window.dataLayer[i].event === "dataLayerCreated") {
+                dL = window.dataLayer[i];
+            }
+        }
+
+        if (!dL || !dL.content.article || !dL.content.article.doi) { return false;}
+
+        doi = dL.content.article.doi;
+        imprint = dL.content.contentInfo.imprint;
+        bpids = dL.session.authentication.authenticationID;
+        pageType = dL.page.category.pageType;
+
+        if (pageType) {
+            pageType = pageType.charAt(0).toUpperCase() + pageType.substring(1);
+        }
+
+        eventObject = {'content_type': pageType, 'doi': doi};
+
+        if (imprint === 'BioMed Central') {
+            publisher = 'BMC';
+        }
+        else if (imprint === 'SpringerOpen') {
+            publisher = 'SpringerOpen';
+        }
+        else {
+            throw new Error('Event Tracker Error: The publisher has an unexpected value');
+        }
+
+        if (bpids.length > 0) {
+            eventObject['business_partner_ids'] = bpids;
+        }
+
+        new EventTracker({'platform': publisher}).sendEvent('display', eventObject);
+    };
+    document.head.appendChild(script);
+});
+</script>
+
+        <!--Polyfills CustomEvent constructor in IE. Allows us to use events to manage race conditions in client side js-->
+<script>
+    (function () {
+        if (typeof window.CustomEvent === "function") { return false; } // If IE polyfill not needed just return
+
+        function CustomEvent ( event, params ) {
+            params = params || { bubbles: false, cancelable: false, detail: undefined };
+            var evt = document.createEvent( 'CustomEvent' );
+            evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+            return evt;
+        }
+
+        CustomEvent.prototype = window.Event.prototype;
+
+        window.CustomEvent = CustomEvent;
+    })();
+</script>
+        
+    <script type="text/javascript">
+        window.dataLayer = [{"content":{"article":{"doi":"10.1186/s12938-018-0449-9","articleType":"Book Review","peerReviewType":"Closed","supplement":null,"keywords":"Machine learning;Algorithms;Biomedical technologies;Spreadsheets;Overfitting;Leakage;Practice guidelines"},"contentInfo":{"imprint":"BioMed Central","title":"Machine learning and medicine: book review and commentary","publishedAt":1517443200000,"publishedAtDate":"2018-02-01","author":["Robert Koprowski","Kenneth R. Foster"],"collection":[]},"attributes":{"deliveryPlatform":"oscar","template":"rebrand","cms":null,"copyright":{"creativeCommonsType":"CC BY + CC0","openAccess":true},"environment":"live"},"journal":{"siteKey":"biomedical-engineering-online.biomedcentral.com","volume":"17","issue":"1","title":"BioMedical Engineering OnLine","type":"AJs Life","journalID":12938,"gaCode":"UA-62064032-5","section":[]},"category":{"pmc":{"primarySubject":"Engineering"},"contentType":"Book Review","publishingSegment":"Biotechnology"}},"session":{"authentication":{"authenticationID":[]}},"version":"1.0.0","page":{"category":{"pageType":"article"}},"event":"dataLayerCreated"}];
+        var event = new CustomEvent('dataLayerCreated');
+        document.dispatchEvent(event);
+    </script><script id="springerlink-event-tracker" src="./Machine learning and medicine book review and commentary_files/eventTracker.js.download"></script>
+
+        <script src="./Machine learning and medicine book review and commentary_files/7d6f4b4f-77fb-43b9-b429-eb1e1eeac6aa.js.download" id="onetrust-bmc-control" charset="UTF-8"></script><script type="text/javascript" src="./Machine learning and medicine book review and commentary_files/jquery.min.js.download"></script><link type="text/css" href="./Machine learning and medicine book review and commentary_files/optanon.css" rel="stylesheet"><style>#optanon ul#optanon-menu li { background-color: #F8F8F8 !important }#optanon ul#optanon-menu li.menu-item-selected { background-color: #C5F6F9 !important }#optanon #optanon-popup-wrapper .optanon-white-button-middle { background-color: #1B3051 !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle { background-color: #1B3051 !important; border-color: #1B3051 !important; }#optanon #optanon-popup-wrapper .optanon-white-button-middle a { color: #ffffff !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle a { color: #ffffff !important }#optanon #optanon-popup-bottom { background-color: #FFFFFF !important }#optanon.modern #optanon-popup-top, #optanon.modern #optanon-popup-body-left-shading { background-color: #FFFFFF !important }.optanon-alert-box-wrapper { background-color:#EFF6FC !important }.optanon-alert-box-wrapper .optanon-alert-box-bg p { color:#333333 !important }</style>
+        
+    
+        
+    
+
+        
+    
+        
+            
+                <!-- Google Tag Manager -->
+                <script>
+                    (function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                    var f = d.getElementsByTagName(s)[0],
+                            j = d.createElement(s),
+                            dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-TDGJHK');
+                </script>
+                <!-- End Google Tag Manager -->
+            
+        
+    
+
+
+        
+    
+    <link rel="canonical" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9">
+    
+
+        
+        
+        <meta property="og:url" content="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9">
+        <meta property="og:type" content="article">
+        <meta property="og:site_name" content="BioMedical Engineering OnLine">
+        <meta property="og:title" content="Machine learning and medicine: book review and commentary">
+        <meta property="og:description" content="This article is a review of the book “Master machine learning algorithms, discover how they work and implement them from scratch” (ISBN: not available, 37 USD, 163 pages) edited by Jason Brownlee published by the Author, edition, v1.10 http://MachineLearningMastery.com . An accompanying commentary discusses some of the issues that are involved with use of machine learning and data mining techniques to develop predictive models for diagnosis or prognosis of disease, and to call attention to additional requirements for developing diagnostic and prognostic algorithms that are generally useful in medicine. Appendix provides examples that illustrate potential problems with machine learning that are not addressed in the reviewed book.">
+        <meta property="og:image" content="https://images.springer.com/sgw/journals/medium/12938.jpg">
+    
+    <script src="./Machine learning and medicine book review and commentary_files/figshare.js.download"></script><script type="text/javascript" src="./Machine learning and medicine book review and commentary_files/jquery.min.js(1).download"></script><link rel="preload" href="./Machine learning and medicine book review and commentary_files/f.txt" as="script"><script type="text/javascript" src="./Machine learning and medicine book review and commentary_files/f.txt"></script><script src="./Machine learning and medicine book review and commentary_files/pubads_impl_301.js.download" async=""></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html"><style type="text/css" id="qual_style-xis"></style><style type="text/css" id="qual_style-xyi"></style></head>
+
+    <body class="journal journal-fulltext"><div id="MathJax_Message" style="display: none;"></div>
+        
+    
+        
+            
+                <!-- Google Tag Manager (noscript) -->
+                <noscript>
+                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDGJHK"
+                            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                </noscript>
+                <!-- End Google Tag Manager (noscript) -->
+            
+        
+    
+
+
+        
+
+        
+
+    <div class="u-vh-full">
+        <div class="u-visually-hidden" aria-hidden="true">
+    
+    <!--?xml version="1.0" encoding="UTF-8"?--><svg xmlns="http://www.w3.org/2000/svg"><defs><filter id="a" filterUnits="userSpaceOnUse" x="0" y="0" width="60.643" height="31.01"><fecolormatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"></fecolormatrix></filter></defs><symbol id="icon-arrow-down" viewBox="0 0 16 8"><path d="M8 6l6-6h2L8 8 0 0h2l6 6"></path></symbol><symbol id="icon-arrow-left-bullet" viewBox="0 0 8 16"><path d="M3 8l5 5v3L0 8l8-8v3L3 8z"></path></symbol><symbol id="icon-arrow-right-bullet" viewBox="0 0 8 16"><path d="M5 8L0 3V0l8 8-8 8v-3l5-5z"></path></symbol><symbol id="icon-arrow-right" viewBox="0 0 32 64"><path d="M0 0v64l32-32z"></path></symbol><symbol id="icon-close" viewBox="0 0 23.998 23.999"><path d="M20.998 0l-8.999 9L3 0 0 3l8.999 9L0 20.999l3 3L11.999 15l8.999 8.999 3-3L14.999 12l8.999-9z"></path></symbol><symbol id="icon-community" viewBox="0 0 60.643 31.01"><mask maskUnits="userSpaceOnUse" x="0" y="0" width="60.643" height="31.01" id="b"><path fill="#FFF" d="M0 31.01h60.643V0H0z" filter="url(#a)"></path></mask><path mask="url(#b)" d="M60.643 25.497L50.005 14.86a7.925 7.925 0 1 0-7.669 0l-6.847 6.847-1.334-1.334a7.925 7.925 0 0 0-3.834-14.861 7.925 7.925 0 0 0-3.834 14.861l-1.334 1.334-6.847-6.847a7.925 7.925 0 1 0-7.669 0L0 25.497h21.362L15.85 31.01h28.943l-5.514-5.513h21.364z"></path></symbol><symbol id="icon-download" viewBox="-301 390 9 14"><path d="M-301 395.6l4.5 5.1 4.5-5.1h-3V390h-3v5.6h-3zm0 6.5h9v1.9h-9z"></path></symbol><symbol id="icon-ext-link" viewBox="0 0 16 16"><path fill="#676767" d="M12.9 16H3.1C1.4 16 0 14.6 0 12.9V3.2C0 1.4 1.4 0 3.1 0h3.7v1H3.1C2 1 1 2 1 3.2v9.7C1 14 2 15 3.1 15h9.7c1.2 0 2.1-1 2.1-2.1V8.7h1v4.2c.1 1.7-1.3 3.1-3 3.1z"></path><path fill="#676767" d="M12.8 2.5l.7.7-9 8.9-.7-.7 9-8.9z"></path><path fill="#676767" d="M9.7 0L16 6.2V0z"></path></symbol><symbol id="icon-info-bordered" viewBox="470.812 270.868 18 18"><path d="M479.812 270.868c-4.972 0-9 4.029-9 9s4.028 9 9 9c4.971 0 9-4.029 9-9s-4.029-9-9-9zm0 16.875a7.875 7.875 0 0 1-7.875-7.875 7.875 7.875 0 1 1 15.75 0 7.875 7.875 0 0 1-7.875 7.875z"></path><path d="M479.284 279.586c.089-.238-.024-.361-.13-.361-.489 0-1.123 1.16-1.359 1.16-.093 0-.173-.092-.173-.174 0-.238.581-.801.751-.971.526-.506 1.217-.895 1.979-.895.567 0 1.174.346.703 1.639l-.952 2.604c-.079.199-.224.531-.224.746 0 .092.054.186.159.186.395 0 1.121-1.135 1.304-1.135.067 0 .158.086.158.199 0 .385-1.542 2.043-2.874 2.043-.477 0-.804-.225-.804-.732 0-.641.447-1.734.538-1.963l.924-2.346zm.727-3.41c0-.586.498-1.066 1.082-1.066.527 0 .91.357.91.906 0 .615-.501 1.068-1.098 1.068-.541-.002-.894-.361-.894-.908z"></path></symbol><symbol id="icon-opr" viewBox="0 0 18 18"><path d="M.9 2.5c-.2-.2-.4-.3-.6-.2-.3.2-.3.4-.3.6 0 .8 0 1.7.1 2.5 0 .5.3.7.7.6.9 0 1.7-.2 2.5-.3h.2c.5-.2.6-.5.3-.8-.2-.2-.4-.4-.6-.5-.1-.1-.2-.2-.4-.3.5-.6 1-1.1 1.7-1.5 4.6-3 10.9-.5 12 4.9.9 4.4-2.2 8.6-6.7 9.2-3.7.5-7.2-1.6-8.4-5.1 0-.1-.1-.2-.1-.3-.1-.3-.5-.5-.8-.4-.3.1-.5.4-.4.8.4 1.3 1.1 2.4 2 3.4 1.4 1.5 3.1 2.4 5.1 2.8 3 .5 5.6-.2 7.8-2.2 2.1-1.9 3-4.2 3-6.9-.1-4-3.1-7.6-7.1-8.4-3.3-.9-6.2 0-8.6 2.3-.2.1-.3.3-.5.5-.3-.2-.6-.5-.9-.7z"></path><path d="M13 4.7c-2.6 1.6-4.5 3.6-5.3 4.6L5.6 7.7l-.9.7L8.3 12c.6-1.6 2.6-4.6 4.9-6.8l-.2-.5z"></path></symbol><symbol id="icon-quotation" viewBox="0 0.333 55.932 35.619"><path d="M43.738.333L31.545 12.207v23.745h24.387V12.207H43.738zm-31.545 0L0 12.207v23.745h24.386V12.207H12.193z"></path></symbol><symbol id="icon-remove" viewBox="-296 388 18 18"><path d="M-291.7 396.1h9v2h-9z"></path><path d="M-287 405.5c-4.7 0-8.5-3.8-8.5-8.5s3.8-8.5 8.5-8.5 8.5 3.8 8.5 8.5-3.8 8.5-8.5 8.5zm0-16c-4.1 0-7.5 3.4-7.5 7.5s3.4 7.5 7.5 7.5 7.5-3.4 7.5-7.5-3.4-7.5-7.5-7.5z"></path></symbol><symbol id="icon-ribbon" viewBox="0 0 36 72"><path d="M0 0v72h.053L18 54.054 35.945 72H36V0H0zm25.8 11.4l3.001 3L15 28.2l-7.801-7.8 3-3L15 22.201 25.8 11.4z"></path></symbol><symbol id="icon-rss" viewBox="0 0 24 24"><g fill="#F26822"><ellipse cx="3.305" cy="20.702" rx="3.306" ry="3.298"></ellipse><path d="M15.978 24h-4.684c0-6.224-5.057-11.27-11.294-11.27V8.058c8.824 0 15.978 7.137 15.978 15.942z"></path><path d="M19.2 23.95C19.2 13.366 10.604 4.79 0 4.79V0c13.255 0 24 10.723 24 23.95h-4.8z"></path></g></symbol><symbol id="icon-search" viewBox="0 0 16 16"><path d="M6.276 12.257C2.815 12.257 0 9.508 0 6.128 0 2.749 2.815 0 6.276 0c3.462 0 6.277 2.749 6.277 6.128.002 3.38-2.815 6.129-6.277 6.129zm0-10.772c-2.622 0-4.755 2.083-4.755 4.643 0 2.562 2.133 4.644 4.755 4.644 2.623 0 4.756-2.082 4.756-4.644 0-2.56-2.134-4.643-4.756-4.643z"></path><path d="M16 13.751L13.641 16l-4.875-4.82 2.36-2.248L16 13.751z"></path></symbol><symbol id="icon-speech-bubble" viewBox="0 0 40 54"><path d="M0 0v40h6.667v13.334L20 40h20V0z"></path></symbol><symbol id="icon-error" viewBox="2.002 0 14 14"><path d="M16.002 11.949L13.951 14 9.002 9.051 4.053 14l-2.051-2.051L6.951 7 2.002 2.05 4.053 0l4.949 4.95L13.951 0l2.051 2.049L11.053 7l4.949 4.949z"></path></symbol><symbol id="icon-info" viewBox="5.502 0 7 14"><path d="M8.165 5.923c.146-.384-.04-.577-.209-.577-.783 0-1.798 1.856-2.177 1.856-.15 0-.277-.147-.277-.279 0-.383.933-1.282 1.203-1.557.846-.811 1.949-1.434 3.174-1.434.908 0 1.879.555 1.125 2.63l-1.526 4.167c-.126.32-.358.854-.358 1.198 0 .148.088.298.255.298.632 0 1.796-1.818 2.091-1.818.105 0 .252.134.252.321C11.717 11.345 9.245 14 7.11 14c-.763 0-1.289-.361-1.289-1.176 0-1.027.717-2.778.865-3.145l1.479-3.756zm1.144-4.211C9.309.771 10.111 0 11.045 0c.845 0 1.457.577 1.457 1.456 0 .983-.804 1.709-1.757 1.709-.866-.001-1.436-.578-1.436-1.453z"></path></symbol><symbol id="icon-success" viewBox="0 0 16 14"><path d="M15.592 0c-4.867 2.984-8.4 6.751-9.987 8.641L1.717 5.595 0 6.979l6.717 6.832c1.157-2.961 4.817-8.748 9.287-12.86L15.592 0z"></path></symbol><symbol id="icon-warning" viewBox="7.002 0 2.789 14"><path d="M7.002 11.211h2.789V14H7.002v-2.789zM7.002 0v3.436l.741 5.326h1.326l.723-5.326V0h-2.79z"></path></symbol><symbol id="icon-facebook-bordered" viewBox="463.812 263.868 32 32"><path d="M479.812 263.868c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zm0 30c-7.732 0-14-6.269-14-14s6.268-14 14-14 14 6.269 14 14-6.267 14-14 14z"></path><path d="M483.025 280.48l.32-2.477h-2.453v-1.582c0-.715.199-1.207 1.227-1.207h1.311v-2.213a17.753 17.753 0 0 0-1.907-.098c-1.894 0-3.186 1.154-3.186 3.271V278h-2.142v2.477h2.142v6.354h2.557v-6.354l2.131.003z"></path></symbol><symbol id="icon-facebook" viewBox="0 0 24 24"><circle fill="#4D67A4" cx="12" cy="12" r="12"></circle><path fill="#FFF" d="M8.396 10.143h2.137V8.165s-.092-1.292.892-2.274c.979-.979 2.298-.887 4.177-.724v2.21h-1.387s-.586-.013-.861.303c-.271.315-.24.764-.24.875v1.588h2.41l-.311 2.458h-2.116v6.336h-2.56v-6.345H8.396v-2.449z"></path></symbol><symbol id="icon-gplus-bordered" viewBox="463.812 263.868 32 32"><path d="M479.812 263.868c-8.838 0-16 7.163-16 16s7.162 16 16 16c8.837 0 16-7.163 16-16s-7.163-16-16-16zm0 30c-7.732 0-14-6.269-14-14s6.268-14 14-14c7.731 0 14 6.269 14 14s-6.267 14-14 14z"></path><path d="M480.5 273.117c.123.076.26.185.416.334.146.152.289.343.432.562.135.211.258.459.359.746.086.286.129.619.129 1.004-.012.7-.164 1.262-.465 1.683a5.374 5.374 0 0 1-.461.562c-.186.176-.375.35-.58.527a2.65 2.65 0 0 0-.322.41.908.908 0 0 0-.176.553c0 .205.059.375.18.508.102.129.199.238.299.336l.662.545a6.48 6.48 0 0 1 1.086 1.119c.293.415.445.955.459 1.625 0 .949-.42 1.789-1.256 2.521-.869.76-2.123 1.15-3.762 1.177-1.373-.015-2.4-.308-3.074-.879-.682-.534-1.023-1.172-1.023-1.917 0-.359.111-.766.336-1.211.215-.443.602-.837 1.172-1.174a6.126 6.126 0 0 1 1.998-.725 15.415 15.415 0 0 1 1.723-.173 3.996 3.996 0 0 1-.377-.596 1.347 1.347 0 0 1-.193-.74c0-.174.023-.317.074-.433a8.83 8.83 0 0 1 .121-.338 5.973 5.973 0 0 1-.633.035c-1.043-.012-1.838-.339-2.381-.979-.574-.603-.861-1.3-.861-2.097 0-.961.404-1.832 1.217-2.616.559-.46 1.135-.757 1.736-.898a8.494 8.494 0 0 1 1.67-.182h3.916l-1.209.704h-1.207v.005l-.005.002zm.754 11.276c0-.498-.162-.932-.484-1.302-.346-.348-.881-.778-1.609-1.29a4.045 4.045 0 0 0-.439-.02c-.102-.016-.354 0-.768.039a8.141 8.141 0 0 0-1.244.275c-.1.036-.24.096-.42.17a2.713 2.713 0 0 0-.553.355 1.985 1.985 0 0 0-.459.592c-.145.25-.215.551-.215.901 0 .687.311 1.253.932 1.698.596.444 1.404.68 2.432.688.928-.014 1.629-.217 2.117-.612.476-.385.71-.886.71-1.494zm-2.729-5.743a1.843 1.843 0 0 0 1.289-.556c.164-.249.271-.506.318-.767a7.32 7.32 0 0 0 .041-.659c0-.772-.195-1.552-.594-2.336a2.611 2.611 0 0 0-.73-.921 1.894 1.894 0 0 0-1.064-.352 1.723 1.723 0 0 0-1.324.64c-.299.437-.438.92-.428 1.457 0 .709.209 1.444.623 2.211.201.356.459.659.775.912.323.248.686.371 1.094.371zm9.698.077h-2.055v-2.056h-.996v2.056h-2.053v.998h2.053v2.052h.996v-2.052h2.055z"></path></symbol><symbol id="icon-gplus" viewBox="0 0 24 24"><circle fill="#D84A36" cx="12" cy="12" r="12"></circle><g fill="#FFF"><path d="M12.012 12.111c-.304-.33-.07-.842.155-1.078.226-.241.639-.56.829-.74.193-.184.66-.605.674-1.868 0 0 .112-1.139-1.127-2.06h.977l1.038-.593h-3.507s-2.083-.067-3.085 1.207c-1 1.276-.966 2.871.114 3.77 1.08.898 2.371.648 2.371.648s-.197.422-.163.775c.036.353.421.849.504.965 0 0-2.386-.011-3.551 1.033-1.165 1.053-1.29 3.097 1.021 3.803 2.312.707 5.303-.055 5.906-2.277 0 0 .262-.908-.189-1.683-.459-.775-1.663-1.571-1.967-1.902zm-2.555-1.83c-.744-1-1.308-2.953 0-3.783 0 0 .955-.579 1.801.266.846.846 1.082 2.277.928 3.003-.15.727-.563.897-.739 1.008-.185.111-1.249.504-1.99-.494zm3.668 5.481c-.035.393-.083 1.254-1.491 1.664-1.409.408-3.826-.264-3.757-1.914 0 0 .006-.698.449-1.089.445-.396 1.094-.794 3.029-.819 0 0 .643.473 1.072.809.427.332.733.952.698 1.349z"></path><path d="M16.323 11.055V9.803h-.752v1.252h-1.255v.748h1.255v1.256h.752v-1.256h1.248v-.748z"></path></g></symbol><symbol id="icon-linkedin" viewBox="0 0 24 24"><circle fill="#0178B5" cx="12" cy="12" r="12"></circle><g fill="#FFF"><circle cx="8.022" cy="8.043" r="1.256"></circle><path d="M6.929 10.246h2.17v6.967h-2.17zm3.533 6.967h2.157v-3.594s-.078-1.627 1.219-1.627c1.301 0 1.211 1.231 1.211 1.635v3.586h2.183v-3.775s.129-2.745-1.472-3.191c-1.605-.445-2.661.071-3.219.985v-.985h-2.079v6.966z"></path></g></symbol><symbol id="icon-reddit" viewBox="0 0 24 24"><circle fill="#BCBCBC" cx="12" cy="12" r="12"></circle><path fill="#FFF" d="M4.661 9.741c.941 0 1.703.761 1.703 1.704 0 .938-.762 1.705-1.703 1.705s-1.704-.767-1.704-1.705c0-.943.763-1.704 1.704-1.704zm13.844 0a1.704 1.704 0 1 1 .001 3.409 1.704 1.704 0 0 1-.001-3.409z"></path><path fill="#FFF" d="M11.736 8.732c4.285 0 7.762 2.283 7.762 5.104 0 2.812-3.477 5.1-7.762 5.1-4.288 0-7.762-2.285-7.762-5.1.001-2.82 3.474-5.104 7.762-5.104z"></path><path fill="#010101" d="M11.736 19.262c-4.461 0-8.088-2.437-8.088-5.426 0-2.994 3.626-5.431 8.088-5.431 4.457 0 8.087 2.437 8.087 5.431 0 2.989-3.63 5.426-8.087 5.426zm0-10.205c-4.104 0-7.438 2.145-7.438 4.779 0 2.633 3.334 4.773 7.438 4.773 4.098 0 7.437-2.142 7.437-4.773 0-2.636-3.339-4.779-7.437-4.779z"></path><circle fill="#FFF" cx="18.014" cy="5.765" r="1.385"></circle><path fill="#010101" d="M18.014 7.456a1.694 1.694 0 0 1-1.695-1.691c0-.934.764-1.694 1.695-1.694s1.693.762 1.693 1.694c0 .934-.762 1.691-1.693 1.691zm0-2.734c-.574 0-1.043.469-1.043 1.043s.469 1.041 1.043 1.041a1.042 1.042 0 0 0 0-2.084zM3.818 13.275a2.068 2.068 0 0 1-1.068-1.811 2.074 2.074 0 0 1 3.538-1.466l-.458.462a1.412 1.412 0 0 0-1.007-.42 1.424 1.424 0 0 0-.688 2.669l-.317.566zm15.866 0l-.316-.566a1.43 1.43 0 0 0 .73-1.245c0-.784-.635-1.424-1.42-1.424-.381 0-.736.149-1.008.42l-.459-.462a2.074 2.074 0 1 1 2.473 3.277z"></path><path fill="#F04B23" d="M9.165 11.604c.704 0 1.272.564 1.272 1.27a1.273 1.273 0 1 1-1.272-1.27zm5.321 0a1.274 1.274 0 1 1-1.275 1.27c0-.704.57-1.27 1.275-1.27z"></path><path fill="#010101" d="M11.79 8.915a.327.327 0 0 1-.307-.44l1.472-4.181 3.616.862c.177.044.283.22.238.395a.32.32 0 0 1-.391.239l-3.045-.729-1.275 3.632a.334.334 0 0 1-.308.222zm-.069 8.376c-2.076 0-2.908-.939-2.943-.982a.332.332 0 0 1 .035-.461.334.334 0 0 1 .459.033c.019.021.713.758 2.449.758 1.766 0 2.539-.763 2.549-.767a.324.324 0 1 1 .469.446c-.04.043-.954.973-3.018.973z"></path></symbol><symbol id="icon-twitter-bordered" viewBox="463.812 263.868 32 32"><path d="M486.416 276.191a5.622 5.622 0 0 1-1.554.429 2.718 2.718 0 0 0 1.19-1.502 5.456 5.456 0 0 1-1.72.657 2.71 2.71 0 0 0-1.979-.854 2.711 2.711 0 0 0-2.642 3.326 7.681 7.681 0 0 1-5.586-2.831 2.714 2.714 0 0 0 .839 3.618 2.748 2.748 0 0 1-1.227-.339v.031a2.71 2.71 0 0 0 2.174 2.656 2.735 2.735 0 0 1-1.229.049 2.726 2.726 0 0 0 2.531 1.883 5.442 5.442 0 0 1-4.01 1.123 7.672 7.672 0 0 0 4.155 1.215c4.983 0 7.71-4.129 7.71-7.711 0-.115-.004-.232-.006-.351a5.41 5.41 0 0 0 1.354-1.399z"></path><path d="M479.812 263.868c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zm0 30c-7.732 0-14-6.269-14-14s6.268-14 14-14 14 6.269 14 14-6.267 14-14 14z"></path></symbol><symbol id="icon-twitter" viewBox="0 0 24 24"><circle fill="#26A7DF" cx="12" cy="12" r="12"></circle><path fill="#FFF" d="M5.903 6.768s2.176 2.883 5.953 3.082c0 0-.51-1.702 1.058-3.004 1.568-1.305 3.508-.2 3.879.292 0 0 1.104-.172 1.875-.691 0 0-.252.995-1.18 1.594 0 0 1.086-.146 1.596-.439 0 0-.533.853-1.447 1.503 0 0 .381 3.595-2.709 6.57-3.09 2.971-8.176 2.352-10.012.797 0 0 2.495.277 4.249-1.219 0 0-2.074-.037-2.671-1.973 0 0 1.036.08 1.215-.119 0 0-2.232-.539-2.254-2.873 0 0 .68.339 1.297.359 0-.001-2.153-1.557-.849-3.879z"></path></symbol><symbol id="icon-weibo-bordered" viewBox="463.812 263.868 32 32"><path d="M479.812 263.868c-8.838 0-16 7.163-16 16s7.162 16 16 16c8.837 0 16-7.163 16-16s-7.163-16-16-16zm0 30c-7.732 0-14-6.269-14-14s6.268-14 14-14c7.731 0 14 6.269 14 14s-6.267 14-14 14z"></path><path d="M478.552 285.348c-2.616.261-4.876-.926-5.044-2.649-.167-1.722 1.814-3.33 4.433-3.588 2.609-.263 4.871.926 5.041 2.647.165 1.721-1.818 3.331-4.43 3.59m5.23-5.718c-.226-.065-.374-.109-.259-.403.25-.639.276-1.188.005-1.581-.515-.734-1.915-.693-3.521-.021 0 0-.508.224-.378-.181.247-.798.209-1.468-.178-1.852-.87-.878-3.194.032-5.183 2.027-1.489 1.494-2.357 3.082-2.357 4.453 0 2.619 3.354 4.213 6.631 4.213 4.297 0 7.154-2.504 7.154-4.493.001-1.198-1.007-1.881-1.914-2.162"></path><path fill="#020202" d="M486.637 274.833a4.176 4.176 0 0 0-3.982-1.291.608.608 0 0 0-.465.72.604.604 0 0 0 .72.466 2.968 2.968 0 0 1 2.827.92 3 3 0 0 1 .625 2.918.602.602 0 0 0 .39.762.603.603 0 0 0 .763-.391v-.001a4.218 4.218 0 0 0-.878-4.103"></path><path fill="#020202" d="M485.041 276.276a2.037 2.037 0 0 0-1.938-.63.518.518 0 0 0-.396.621.517.517 0 0 0 .617.398c.336-.071.702.03.947.307s.312.649.207.979a.52.52 0 0 0 .336.654.523.523 0 0 0 .657-.336 2.038 2.038 0 0 0-.43-1.993m-6.347 5.951c-.09.156-.293.233-.451.166-.151-.062-.204-.235-.115-.389.093-.155.284-.229.44-.168.157.056.214.235.126.391m-.832 1.074c-.253.405-.795.58-1.202.396-.403-.186-.521-.655-.27-1.051.248-.39.771-.566 1.176-.393.413.17.543.636.296 1.048m.95-2.864c-1.244-.326-2.65.294-3.19 1.396-.553 1.119-.021 2.369 1.236 2.775 1.303.42 2.84-.225 3.374-1.436.526-1.183-.132-2.402-1.42-2.735"></path></symbol><symbol id="icon-weibo" viewBox="4 4 24 24"><circle fill="#C8E8F9" cx="16" cy="16" r="12"></circle><path fill="#FFF" d="M9.098 18.194c0 1.981 2.574 3.593 5.757 3.593 3.178 0 5.756-1.611 5.756-3.593 0-1.989-2.578-3.601-5.756-3.601-3.183.001-5.757 1.612-5.757 3.601"></path><path fill="#DF0A21" d="M14.991 21.496c-2.817.278-5.244-.996-5.428-2.85-.183-1.855 1.95-3.586 4.767-3.862 2.813-.278 5.243.996 5.428 2.849.18 1.855-1.957 3.584-4.767 3.863m5.628-6.155c-.24-.067-.404-.116-.279-.432.27-.688.299-1.278.004-1.699-.551-.791-2.062-.748-3.789-.022 0-.001-.548.241-.406-.191.266-.859.224-1.577-.191-1.993-.937-.942-3.437.037-5.577 2.18-1.602 1.61-2.533 3.317-2.533 4.789 0 2.817 3.606 4.533 7.13 4.533 4.626 0 7.701-2.696 7.701-4.834.001-1.292-1.085-2.027-2.06-2.331"></path><path fill="#F4992C" d="M23.689 10.182a4.492 4.492 0 0 0-4.283-1.39.651.651 0 1 0 .269 1.275 3.2 3.2 0 0 1 3.045.99 3.224 3.224 0 0 1 .672 3.138.647.647 0 0 0 .418.823.647.647 0 0 0 .816-.421v-.003a4.51 4.51 0 0 0-.937-4.412"></path><path fill="#F4992C" d="M21.973 11.736a2.183 2.183 0 0 0-2.086-.679.56.56 0 0 0-.428.667.554.554 0 0 0 .662.43v.001c.361-.075.754.034 1.018.33.266.299.34.698.227 1.054a.563.563 0 0 0 .359.706.563.563 0 0 0 .709-.362 2.2 2.2 0 0 0-.461-2.147"></path><path fill="#13110C" d="M15.143 18.139c-.1.17-.315.251-.483.179-.168-.07-.222-.255-.128-.42.097-.167.311-.248.479-.182.165.062.228.252.132.423m-.896 1.155c-.271.434-.854.625-1.295.425-.433-.195-.561-.707-.285-1.128.269-.426.832-.609 1.265-.427.443.183.58.688.315 1.13m1.024-3.084c-1.34-.351-2.852.32-3.434 1.506-.597 1.206-.021 2.546 1.33 2.984 1.402.453 3.055-.243 3.629-1.543.569-1.275-.142-2.587-1.525-2.947"></path></symbol></svg>
+</div>
+
+        <a class="u-visually-hidden u-visually-hidden-focus" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#main-content">
+    <span class="c-banner c-banner--info">Skip to content</span>
+</a>
+
+        
+            
+    <div class="adsbox c-ad c-ad--LB1">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/bmc/biomedical-engineering-online/articles" data-gpt-sizes="728x90,970x90" data-gpt-targeting="pos=LB1;doi=10.1186/s12938-018-0449-9;kwrd=Machine learning,Algorithms,Biomedical technologies,Spreadsheets,Overfitting,Leakage,Practice guidelines;pmc=T2700X,Z13000,C12002,B24000;sponsored=AI;" data-google-query-id="COXd4ezlsOACFUwXrQYdzMkEbQ">
+                
+            <div id="google_ads_iframe_/270604982/bmc/biomedical-engineering-online/articles_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/270604982/bmc/biomedical-engineering-online/articles_0" title="3rd party ad content" name="google_ads_iframe_/270604982/bmc/biomedical-engineering-online/articles_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true" src="./Machine learning and medicine book review and commentary_files/saved_resource.html"></iframe></div></div>
+        </div>
+    </div>
+
+        
+         
+    <div id="membership-message-loader-desktop" class="placeholder" data-placeholder="/placeholder/v1/membership/message"></div>
+
+
+<header class="c-popup-search" id="top" data-test="publisher-header">
+    <nav class="c-navbar">
+        <div class="u-container">
+            
+            <div class="basic-white-logo c-navbar__logo u-margin-right-xxl" itemscope="" itemtype="http://schema.org/Organization" data-test="navbar-logo-header">
+                <link itemprop="parentOrganization" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#parentOrganization">
+                <div class="c-logo">
+    <a href="https://www.biomedcentral.com/" itemprop="url">
+        <img src="./Machine learning and medicine book review and commentary_files/logo-bmc-white-aj-e3a70ae848.svg" alt="BMC" itemprop="logo">
+        <div class="c-logo__strapline">
+            <img src="./Machine learning and medicine book review and commentary_files/logo-bmc-white-strapline-sn-e7b1d6e67f.svg" alt="Part of Springer Nature">
+        </div>
+    </a>
+</div>
+            </div>
+            <button type="button" class="c-navbar__link c-dropdown js-publisher-menu-button u-hidden-at-lg" id="publisher-header-menu-button" data-toggle="collapse" data-test="publisher-header-menu-toggle" data-toggle-linked="publisher-header" data-target="publisher-header-search publisher-header-menu" aria-controls="publisher-header-menu publisher-header-search" aria-expanded="false">
+                <span class="c-dropdown__toggle">Menu</span>
+            </button>
+            <div class="c-navbar__content c-collapse" id="publisher-header-menu" aria-expanded="false">
+                
+    <ul class="c-navbar__nav" data-test="publisher-navigation">
+        
+        <li class="c-navbar__item">
+            <a class="c-navbar__link" href="https://www.biomedcentral.com/journals">
+                Explore journals
+            </a>
+        </li>
+        
+        <li class="c-navbar__item">
+            <a class="c-navbar__link" href="https://www.biomedcentral.com/getpublished">
+                Get published
+            </a>
+        </li>
+        
+        <li class="c-navbar__item">
+            <a class="c-navbar__link" href="https://www.biomedcentral.com/about">
+                About BMC
+            </a>
+        </li>
+        
+    </ul>
+
+
+                <ul class="c-navbar__nav">
+                    <li class="c-navbar__item">
+                        <button type="button" class="c-navbar__link js-publisher-search-button u-hidden-at-lt-lg" data-toggle="collapse" data-test="header-search-button" data-target="publisher-header-search publisher-header-menu publisher-header-menu-button" aria-controls="publisher-header-search publisher-header-menu" aria-expanded="false">
+                            <span class="c-flex c-flex--align-center">
+                                Search
+                                <svg class="c-icon u-margin-left-xs" width="14" height="14" aria-hidden="true">
+                                    <use xlink:href="#icon-search"></use>
+                                </svg>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="c-navbar__item">
+                        <a data-replace="true" data-placeholder="/placeholder/v1/username" class="c-navbar__link" href="https://www.biomedcentral.com/login" data-test="login-link" data-track="click" data-track-category="Account" data-track-action="Click Login Link">
+                            <span class="u-js-shown">Login</span>
+                            <span class="u-js-hidden">My Account</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="c-popup-search__content c-collapse js-publisher-search-bar" id="publisher-header-search" aria-expanded="false">
+        <div class="u-container">
+            <div class="c-popup-search__container">
+                <div class="ctx-search">
+    <form role="search" class="c-form-field c-form-field--inline" method="GET" action="https://www.biomedcentral.com/search" data-track="submit" data-track-category="Search and Results" data-track-action="Submit search" data-dynamic-track-label="" data-track-label="" data-test="global-search" novalidate="">
+        <label for="publisherSearch" class="u-visually-hidden">Search all BMC articles</label>
+        <input id="publisherSearch" class="c-form-field__input js-publisher-search-input" autocomplete="off" role="textbox" data-test="search-input" name="query" type="text" value="" placeholder="Search all BMC articles">
+        <button class="c-button c-button--secondary" type="submit" data-test="search-submit-button">
+    <span class="u-visually-hidden">Search</span>
+    <svg class="c-icon" width="16" height="16" aria-hidden="true">
+        <use xlink:href="#icon-search"></use>
+    </svg>
+</button>
+
+
+        <input type="hidden" name="searchType" value="publisherSearch">
+    </form>
+</div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+        
+            <header class="c-journal-header c-journal-header--biomedical-engineering-online ctx-journal-header">
+                <div class="u-container">
+                    <div class="c-journal-header__inner ">
+                        
+                        <div class="c-journal-title" id="journalTitle">
+                            <a href="https://biomedical-engineering-online.biomedcentral.com/">
+    
+        
+    
+    <span class="c-journal-title__text ">BioMedical Engineering OnLine</span>
+    
+</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="c-navbar">
+                    <div class="u-container">
+                        
+                            <button type="button" class="c-navbar__link c-dropdown u-hidden-at-lg" data-toggle="collapse" data-test="journal-header-menu" data-toggle-linked="journal-header" data-target="journal-menu" aria-controls="journal-menu" aria-expanded="false">
+                                    <span class="c-dropdown__toggle">Menu</span>
+                            </button>
+                            <div class="c-navbar__content c-collapse" id="journal-menu" aria-expanded="false">
+                                <nav class="c-navbar__nav">
+                                    <ul class="c-navbar__nav c-navbar__nav--journal" role="menu" data-test="site-navigation">
+                                        
+                                            <li class="c-navbar__item" role="menuitem">
+                                                <a class="c-navbar__link" href="https://biomedical-engineering-online.biomedcentral.com/">Home</a>
+                                            </li>
+                                        
+                                            <li class="c-navbar__item" role="menuitem">
+                                                <a class="c-navbar__link" href="https://biomedical-engineering-online.biomedcentral.com/about">About</a>
+                                            </li>
+                                        
+                                            <li class="c-navbar__item" role="menuitem">
+                                                <a class="c-navbar__link c-navbar__link--is-shown" href="https://biomedical-engineering-online.biomedcentral.com/articles">Articles</a>
+                                            </li>
+                                        
+                                            <li class="c-navbar__item" role="menuitem">
+                                                <a class="c-navbar__link" href="https://biomedical-engineering-online.biomedcentral.com/submission-guidelines">Submission Guidelines</a>
+                                            </li>
+                                        
+                                    </ul>
+                                </nav>
+                            </div>
+                        
+                    </div>
+                </div>
+                <div class="c-journal-header__identity c-journal-header__identity--midnight-light-grey">
+                    
+                </div>
+            </header>
+            
+        
+
+        <div class="u-container u-margin-top-xl u-margin-bottom-xl" id="main-content">
+            <div class="c-content-layout c-content-layout--fulltext" data-component="sticky-container">
+                <div class="c-content-layout__nav u-hidden-at-lt-xl">
+                    <nav xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" id="ArticleNavigation" aria-labelledby="toc-menu-title" data-component="sticky" style="position: fixed; width: 190px; left: 35px; top: 20px;"><h3 id="toc-menu-title" class="u-visually-hidden" data-test="toc-title">Table of Contents</h3><ol class="c-nav c-nav--stacked" role="menu" id="tocMenu" aria-expanded="true" data-article-toc=""><li role="menuitem" class="c-nav__item"><a class="c-nav__link" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Abs1" data-track-category="Table of Contents" data-track="click" data-track-action="Link Clicked" data-track-label="Abstract" data-test="abstract-link">Abstract</a></li><li role="menuitem" class="c-nav__item"><a class="c-nav__link" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Sec1" data-track-category="Table of Contents" data-track="click" data-track-action="Link Clicked" data-track-label="Book details">Book details</a></li><li role="menuitem" class="c-nav__item"><a class="c-nav__link" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Decs" data-test="declarations-link" data-track-category="Table of Contents" data-track="click" data-track-action="Link Clicked" data-track-label="Declarations">
+                  Declarations
+                </a></li><li role="menuitem" class="c-nav__item"><a class="c-nav__link" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Bib1" data-track-category="Table of Contents" data-track="click" data-track-action="Link Clicked" data-track-label="References">References</a></li></ol></nav>
+                </div>
+
+                <main class="c-content-layout__main">
+                    <article itemscope="" itemtype="http://schema.org/ScholarlyArticle">
+                        
+                        
+    <div class="FulltextWrapper">
+        <ul class="c-article-identifiers u-reset-list">
+            <li class="c-article-identifiers__item" data-test="article-category">Book Review</li>
+            <li class="c-article-identifiers__item" data-test="open-access">
+                <span class="u-text-open-access">Open Access</span>
+            </li>
+            
+            
+        </ul>
+    </div>
+
+                        <div class="FulltextWrapper"><div xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="MainTitleSection"><h1 xmlns="http://www.w3.org/1999/xhtml" class="ArticleTitle" itemprop="headline" lang="en">Machine learning and medicine: book review and commentary</h1></div><div xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="AuthorNames" data-author-affiliations="true"><ul class="u-listReset"><li class="Author hasAffil" data-jumpto="Aff" data-test="author-name"><span xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="AuthorName" itemprop="author" itemscope="" itemtype="http://schema.org/Person">Robert&nbsp;Koprowski</span><sup><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Aff1" class="AffiliationID">1</a></sup><a href="mailto:koprow@us.edu.pl" class="EmailAuthor" title="Email author"><span class="ContactIcon" aria-hidden="true"></span><span class="u-srOnly">Email author</span></a> and </li><li class="Author hasAffil" data-jumpto="Aff" data-test="author-name"><span xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="AuthorName" itemprop="author" itemscope="" itemtype="http://schema.org/Person">Kenneth&nbsp;R.&nbsp;Foster</span><sup><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Aff2" class="AffiliationID">2</a></sup></li></ul></div><div xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="ArticleContextInformation"><div class="ContextInformation"><div class="ContextInformationJournalTitles"><span class="ArticleCitation"><span itemscope="" itemtype="http://schema.org/Periodical" itemid="#periodical"><span xmlns="http://www.w3.org/1999/xhtml" class="JournalTitle">BioMedical Engineering OnLine</span></span><span class="ArticleCitation_Year">2018</span><span class="ArticleCitation_Volume"><strong itemprop="isPartOf" itemtype="http://schema.org/PublicationVolume"><link itemprop="isPartOf" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#periodical">17</strong>:17</span></span></div><p class="ArticleDOI"><a itemprop="sameAs" class="u-text-inherit" href="https://doi.org/10.1186/s12938-018-0449-9">https://doi.org/10.1186/s12938-018-0449-9</a></p><p class="Copyright">© &nbsp;The Author(s)&nbsp;2018</p></div></div><ul class="ArticleHistory u-reset-list"><li class="History HistoryReceived"><strong>Received: </strong><span>23&nbsp;October&nbsp;2017</span></li><li class="History HistoryAccepted"><strong>Accepted: </strong><span>23&nbsp;January&nbsp;2018</span></li><li class="History HistoryOnlineDate"><strong>Published: </strong><span itemprop="datePublished">1&nbsp;February&nbsp;2018</span></li></ul></div>
+                        
+                        
+                        
+    
+
+                        <div class="FulltextWrapper"><section xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="Abstract Section1 RenderAsSection1 c-section" id="Abs1" lang="en"><h2 class="c-section__heading"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Abstract" data-test="abstract-heading" data-disable-click-event-default="">Abstract</a></h2><div class="c-section__content" id="Abstract"><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par1" class="Para">This article is a review of the book “Master machine learning algorithms, discover how they work and implement them from scratch” (ISBN: not available, 37 USD, 163 pages) edited by Jason Brownlee published by the Author, edition, v1.10 <span class="ExternalRef"><a href="http://machinelearningmastery.com/" target="_blank" class="ext-link"><span class="RefSource">http://MachineLearningMastery.com</span></a></span>. An accompanying commentary discusses some of the issues that are involved with use of machine learning and data mining techniques to develop predictive models for diagnosis or prognosis of disease, and to call attention to additional requirements for developing diagnostic and prognostic algorithms that are generally useful in medicine. <span class="InternalRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Sec6">Appendix</a></span> provides examples that illustrate potential problems with machine learning that are not addressed in the reviewed book.</p></div></section><section xmlns:func="http://oscar.fig.bmc.com" class="KeywordGroup Section1 RenderAsSection1 c-section" lang="en"><h2 xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="Heading js-ToggleCollapseSection c-section__heading" data-sticky-update="true"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Keywords" data-toggle="collapse" data-toggle-disable-clickoff="" data-target="Keywords">Keywords</a></h2><div class="js-CollapseSection CollapseSection c-section__content" data-test="collapse-section" id="Keywords"><ul class="c-keywords"><li class="c-keywords__item" itemprop="about">Machine learning</li><li class="c-keywords__item" itemprop="about">Algorithms</li><li class="c-keywords__item" itemprop="about">Biomedical technologies</li><li class="c-keywords__item" itemprop="about">Spreadsheets</li><li class="c-keywords__item" itemprop="about">Overfitting</li><li class="c-keywords__item" itemprop="about">Leakage</li><li class="c-keywords__item" itemprop="about">Practice guidelines</li></ul></div></section>
+            <section xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" id="Sec1" class="Section1 RenderAsSection1 c-section"><h2 class="Heading js-ToggleCollapseSection c-section__heading" data-sticky-update="true"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Bookdetails" data-toggle="collapse" data-toggle-disable-clickoff="" data-target="Bookdetails">Book details</a></h2><div class="js-CollapseSection CollapseSection c-section__content" id="Bookdetails" data-test="collapse-section"><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par6" class="Para">Title: “Master Machine Learning Algorithms, Discover How They Work and Implement Them From Scratch”</p><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par7" class="Para">Edited by: Jason Brownlee</p><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par8" class="Para">Published by: Jason Brownlee in 2017. Available online in several editions with varying amounts of supplementary material, cost between $USD 37 and 237. The reviewed edition costs $USD 37, 163 pages.</p><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par9" class="Para">Machine learning is the subject of a large and sophisticated professional literature, with excellent books for biomedical engineers [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR1" data-toggle="citation">1</a></span>, <span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR2" data-toggle="citation">2</a></span>] as well as at least one excellent text available free online [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR3" data-toggle="citation">3</a></span>]. Machine learning, together with related topics such as data mining, provides a set of tools with a huge potential range of applications from improving medical diagnosis to optimization of cancer therapy. It has also been the subject of considerable hype in the popular literature.</p><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par10" class="Para">The first part of this commentary reviews an introduction to machine learning, “Master Machine Learning Algorithms” which is subtitled “Discover How They Work and Implement Them From Scratch”. The author, Jason Brownlee, aims to introduce readers to practical use of machine learning. On his website (<span class="ExternalRef"><a href="http://machinelearningmastery.com/about/" target="_blank" class="ext-link"><span class="RefSource">http://machinelearningmastery.com/about/</span></a></span>) Brownlee describes himself as a software developer who initially taught himself machine learning “to figure this stuff out”. He also is an active blogger on machine learning, and has written several books on the topic for novices, some available online at his website and others available through online stores such as Amazon. In a sense, Brownlee is one of us, with a Ph.D. (Swinburne University, Melbourne, Australia) and a thesis and academic publications on modeling of artificial immune systems.</p><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par11" class="Para"><em xmlns="" class="EmphasisTypeItalic">Master Machine Learning Algorithms</em> can be purchased online at <span class="ExternalRef"><a href="https://machinelearningmastery.com/master-machine-learning-algorithms/" target="_blank" class="ext-link"><span class="RefSource">https://machinelearningmastery.com/master-machine-learning-algorithms/</span></a></span> (accessed on 03.08.2017) at modest cost ($USD 37), which also includes 17 Excel spreadsheets to illustrate the main algorithms. His website offers 10 related books (including four at a more advanced level) that are tailored for use with the statistical program such as R or the data mining program Weka (both freely distributed on the internet). So, for very little money, a reader can have a useful basic introduction to the topic together with ready-made software to play around with. Brownlee frequently sends emails to a wide distribution list with interesting tutorial material about topics in machine learning.</p><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par12" class="Para">In the 162 pages of the version presently being reviewed, Brownlee describes 11 basic machine learning algorithms and implements them in Excel spreadsheets, in a rudimentary but informative way. For each algorithm, the author describes the underlying mathematics, and for most of them he provides a tutorial with links to an Excel spreadsheet and graphs and tables with results. The book is divided roughly into three parts: linear algorithms (pages from 25 to 71), nonlinear algorithms (pages from 72 to 125), and ensemble algorithms (pages from 126 to 149). The algorithms discussed include linear regression, logistic regression, discriminant analysis, classification and regression trees, Naive Bayes, k-nearest neighbours, support vector machines, decision trees. Introductory and concluding chapters discuss general aspects of machine learning, including problems of overfitting.</p><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par13" class="Para">Obviously, this book is not competitive with other well-known introductions to machine learning for professionals [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR1" data-toggle="citation">1</a></span><span>, <span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR2" data-toggle="citation">2</a></span>, </span><span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR3" data-toggle="citation">3</a></span>], nor is it intended to be. In spirit, it is a bit like the introductory book on French cooking entitled <em xmlns="" class="EmphasisTypeItalic">Je Ne Sais Pas Cuisiner</em> (“I don’t know how to cook”) (Flammarion, 1997)—a collection of recipes and rudimentary instructions for novice cooks but hardly competition for Escoffier or even Julia Child. However, it is very clearly written and for what it tries to accomplish it succeeds well.</p><p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par14" class="Para">We continue with a more detailed review of the book, and conclude with a commentary on some of the larger issues that are involved in applying machine learning and data mining to biomedical problems.</p><section id="Sec2" class="Section2 RenderAsSection2">
+                <h3 class="Heading">Where it succeeds</h3>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par15" class="Para">The book nicely fills the gap between popular oriented, often hyperbolic introductions to machine learning for laypeople, and textbooks for professionals. To a novice entering the field, it is highly educational to use the tools of machine learning as provided in Microsoft Excel spreadsheets and trace their operation step by step. Unlike other introductions to machine learning [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR3" data-toggle="citation">3</a></span><span>, <span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR4" data-toggle="citation">4</a></span>, <span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR5" data-toggle="citation">5</a></span>, </span><span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR6" data-toggle="citation">6</a></span>], the reader does not need to buy expensive software such as Matlab or grapple with complicated software such as R and Weka which are referenced in other versions of this book. This approach has great merit as an introduction to a challenging subject that requires a low initial investment. It is a bit like introducing elementary school students to music by teaching them to play inexpensive recorders: the lessons can instil a lifelong appreciation of music but nobody pretends to turn the kids into musicians. This book will not “make developers awesome at machine learning” as Brownlee’s slogan in his email signature says. Rather, it is a “gentle introduction” (his expression) to a complex field, and is very suitable for helping high school and undergraduate university students get off to a good start with these methods.</p>
+              </section><section id="Sec3" class="Section2 RenderAsSection2">
+                <h3 class="Heading">Where it is lacking</h3>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par16" class="Para">For professional use, the major limitation is lack of depth. The 227 word section entitled “how to limit overfitting” mentions standard techniques such as k-fold cross validation, but does not explain how to do it properly. Each algorithm is described in 3–4 pages that are clearly written but lack mathematical detail.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par17" class="Para">Moreover, the educational value of the book is stymied by a complex programming style in the Excel spreadsheets that will be very hard for novices to follow and adapt to their own problems. For example, cell (173, J) in the spreadsheet 14-SupportVectorMachine.xlsx contains the statement:&nbsp;=&nbsp;IF($H173&nbsp;&lt;&nbsp;1;((1&nbsp;−&nbsp;$E173)*G173&nbsp;+&nbsp;(1/($A$17*$A173))* $D173* C173);((1&nbsp;−&nbsp;$E173)*G173))”. The book would be more useful if it the spreadsheets were more easily adapted to other problems. A simpler, if less compact, programming style would enhance the tutorial values of the spreadsheets, as would a closer tie of the spreadsheets to the mathematics in the background discussion.</p>
+              </section><section id="Sec4" class="Section2 RenderAsSection2">
+                <h3 class="Heading">The larger problem</h3>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par18" class="Para">Machine learning and data mining techniques can discover previously unknown regularities in data and make useful predictions. But finding regularities in an existing set of data and making useful predictions about data collected in the future are two different things. If we could learn patterns in stock market data and use them to successfully predict the future prices of stock we would all be rich. Building models for use in medicine raises further complications in meeting the needs of physicians and their patients. The following discussion pertains equally to machine learning and data mining, which are closely related.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par19" class="Para">At the technical level, machine learning and data mining algorithms are now included in numerous software packages and are very easy to use. However, they can be unreliable in the hands of naïve practitioners—just the people to whom this volume is addressed. The problem is that they provide great flexibility in analysis at the cost of interpretability, and thus appear as “black boxes” to an unsophisticated user.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par20" class="Para">Two problems in particular can easily trip up a novice: overfitting and leakage. Overfitting refers to the tendency of overly complex models to “learn” noise resulting in loss of generalizability (a simple example is fitting a set of data to a high-level polynomial). Leakage occurs when the user inadvertently carries information from the training set (used to train the classifier) to the test set (used to validate the classifier).</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par21" class="Para">Brownlee gives helpful advice about overfitting in several places but does not make it clear how subtle the problem can be. Brownlee does not discuss leakage in this book, although he provides insightful discussions of the problem in his blog (<span class="ExternalRef"><a href="http://machinelearningmastery.com/data-leakage-machine-learning/" target="_blank" class="ext-link"><span class="RefSource">http://machinelearningmastery.com/data-leakage-machine-learning/</span></a></span>); an extensive professional literature exists on the subject (e.g. Kaurman 2012). A common novice error is to tune a classifier to obtain the “best” results, but continue to use the same test data—which consequently invalidates its statistical independence and makes it unreliable for validation purposes. There are, of course, many discussions of these problems in the professional literature but these are more advanced sources than this present volume.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par22" class="Para">A different set of problems arise with developing sophisticated statistical methods for use in clinical medicine. These need to work at the technical level that is familiar to engineers, and also meet the needs of doctors and patients. A quick search on Google Scholar will uncover hundreds of papers that use machine learning or data mining to develop methods to diagnose disease, estimate a patient’s prognosis from a disease, or another purpose. The projects range from, at the high end, a handful of large studies supported by companies such as Google and Apple, to a great many much smaller studies by engineers from around the world. A large fraction of these papers are published in engineering and computer science journals as opposed to practice-oriented medical journals, and are clearly aimed at other engineers.</p>
+              </section><section id="Sec5" class="Section2 RenderAsSection2">
+                <h3 class="Heading">Developing useful clinical tests using machine learning</h3>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par23" class="Para">A useful perspective is provided in the widely-cited 1991 paper by Fryback and Thornbury on the efficacy of diagnostic imaging. While the article focuses on diagnostic imaging, similar considerations apply to a wide range of other medical applications.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par24" class="Para">Fryback and Thornbury emphasize that the medical value of a diagnostic test needs to be assessed on several levels: (1) the technical level; (2) its diagnostic accuracy measured in terms of sensitivity and specificity; (3) its contribution to changing the diagnostic thinking of a physician; (4) its contribution to developing a patient’s management plan; (5) its contribution to improving the patient’s outcome; and (6) the societal costs and benefits of the test.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par25" class="Para">We consider two examples: machine learning/data mining to diagnose coronary artery disease, and for estimating prognosis of survival from breast cancer. Numerous papers are easily located on Google Scholar on these topics, a large fraction of which appeared in engineering or computer science journals. We describe databases that have been used for such purposes. Our goal is not to criticize the studies, but to point to the differences in scale of data needed to develop an algorithm and in establishing its clinical efficacy for real-world medical use.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par26" class="Para">Two datasets, available online, have been used to develop algorithms for diagnosis of coronary artery disease (CAD). One is the “Z-Alizadeh” dataset [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR7" data-toggle="citation">7</a></span>] that consists of 55 different clinical parameters, demographic data and results of medical tests measured in 303 patients that were collected from random visitors to a Tehran cardiology center. A second dataset is “heart” (<span class="ExternalRef"><a href="http://www-bcf.usc.edu/~gareth/ISL/data.html" target="_blank" class="ext-link"><span class="RefSource">http://www-bcf.usc.edu/~gareth/ISL/data.html</span></a></span>), that has 13 attributes from 303 patients from an unknown medical center. This latter data set has been used in an extensive case study in the James’s textbook [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR3" data-toggle="citation">3</a></span>].</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par27" class="Para">Both datasets raise interesting technical issues. They are both unbalanced (unequal numbers of healthy and diseased subjects) and contain a mix of qualitative and quantitative data. Both datasets have too many attributes relative to the number of subjects and must be pruned (choosing a subset of attributes for the classifier). James et al. [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR3" data-toggle="citation">3</a></span>] and Alizadehsani [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR7" data-toggle="citation">7</a></span>] both give excellent discussions of the pruning process, one from the perspective of a research paper and the second from a didactic perspective. One of the attributes in the “heart” data set is the result of the thallium stress test, which is a diagnostic test for CAD. Not surprisingly, James et al. [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR3" data-toggle="citation">3</a></span>] show that this attribute has by far the greatest importance in training a classifier for diagnosis of CAD.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par28" class="Para">The second example is prognosis of breast cancer survival. Several papers use the Haberman Survival dataset (<span class="ExternalRef"><a href="http://archive.ics.uci.edu/ml/datasets/Haberman%e2%80%99s%2bSurvival" target="_blank" class="ext-link"><span class="RefSource">http://archive.ics.uci.edu/ml/datasets/Haberman’s+Survival</span></a></span>), that contains the 5-year survival status of 306 patients who had undergone breast cancer surgery. The data set has two classes (alive or dead 5&nbsp;years after surgery) and three attributes (age of patient at time of operation, year of patient’s operation, and the number of positive axilliary nodes detected). This data set is also interesting as a didactic example of machine learning for binary classification, and has been discussed by one expert as a particularly difficult problem in binary classification [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR8" data-toggle="citation">8</a></span>] (For comments on that see <span class="InternalRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Sec6">Appendix</a></span> and Additional file <span class="InternalRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#MOESM1">1</a></span>). However, it lacks information such as grade of the tumor and data about hormone sensitivity and use of any adjuvant therapy (such as chemotherapy after surgery) that would be needed for accurate prognosis. The data set is also unbalanced (most of the patients were still alive after 5&nbsp;years) and it has too few attributes to benefit from the distinctive benefits of machine learning, which is to discover new parameters or combinations of parameters that would improve diagnosis. (Shelby J. Haberman, who collected the data for a 1976 paper on log-linear models, became a distinguished statistician and spent much of his later career at the Educational Testing Service in Princeton NJ).</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par29" class="Para">All three datasets are readily available online, and can be easily imported into statistical programs such as R for use with their built-in machine learning or data mining tools. These three datasets, among others, have been used in a rich research literature, almost entirely focused on algorithm development. But the authors have not always distinguished clearly between technical goals (developing algorithms for classifiers) and actual medical use, using terms such as “survival prediction” or “diagnosis” without qualification. This distinction is understandably, not discussed in Brownlee’s book, or in most other texts on machine learning for that matter.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par30" class="Para">The differences in scale between an engineering study on algorithm development and a developing a classifier or other mathematical model that is suitable for use in medical practice can be very large.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par31" class="Para">For example, in cardiology, physicians would need more than a binary classification of a patient as having or not having CAD. Their needs include assessing patients who present with symptoms of stable ischemic heart disease, assessing the extent of the disease, if any, estimating the risk of sudden cardiac death, or choosing optimal treatment strategies. Without strong clinical evidence, few doctors would use a classifier based on clinical indications in lieu of conventional diagnostic methods for detection of CAD, for example coronary CT angiography.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par32" class="Para">A more plausible use of a classifier would be to calculate pre-test probability to de-select patients from expensive tests that they are unlikely to benefit from. That also would require well controlled clinical studies to justify its use, and it seems that few such studies have been done with classifier based tests. A 2017 systematic review [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR9" data-toggle="citation">9</a></span>] concluded that mathematical models for pre-test prediction of outcomes of tests for stable CAD in cardiology had “only modest success”. No machine learning-based models met the inclusion criteria for acceptance in that review A 2017 study by Korley et al. [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR10" data-toggle="citation">10</a></span>] assessed use of clinical risk factors (such as in the Z-Aldesani database) for diagnosing CAD as a pre-test selection tool. That study derived a classifier used a regularized regression method, based on a derivation set of 679 patents to train and validate a classifier, with additional validation on 1056 patients from a different cohort. The investigators concluded that “clinical risk factors, either individually or in combination, are insufficient for accurately identifying suspected ACS (acute coronary symptom) patients harboring undiagnosed significant coronary artery disease.” The possibility exists, however, that an improved classifier after proper validation might prove more successful.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par33" class="Para">Estimating prognosis for survival from breast cancer is important in treatment planning and for patient information. A recent model, based on a Cox proportional hazard model, is currently used for estimating prognosis of breast cancer patients after surgery (Wishart et al. 2010 [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR11" data-toggle="citation">11</a></span>]). The model was developed from a cohort of 5694 women who had surgery for invasive breast cancer, and validated using an independent data set of 5468 patients from another medical center. One particular use of this model is to assess probable benefits to a patient from adjuvant therapy.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par34" class="Para">Overall, the contribution of machine learning or data mining to medical diagnosis to date has been mixed. In their recent systematic review of the development of risk prediction models from electronic health records data, Goldstein et al. [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR12" data-toggle="citation">12</a></span>] noted the potential usefulness of such studies, but also considered areas in which improvement is needed. These include the need for studies to validate their results across different healthcare centers, develop better methods to deal with missing data, and assessing how the algorithms impact clinical decision making.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par35" class="Para">In a recent tutorial [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR13" data-toggle="citation">13</a></span>] Goldstein et al. describe the use of machine learning to predict risk of death in patients admitted to an emergency after sudden myocardial infarction, using electronic health records of 1944 patients—a data set that is nearly seven times larger than the Z-Alizadehsani dataset [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR7" data-toggle="citation">7</a></span>] but not out of range of many biomedical engineering groups. The authors conclude that machine learning methods “can be employed to help confront issues of multiple and correlated predictors, non-linear relationships, and interactions between predictors and endpoints, in large datasets. However, when using machine-learning methods, extra care is needed in the form of model validation.” The authors recommended a series of practical steps to improve the reliability of machine learning models, and stress the need to test the full range of the modeling process including variable selection. Similar cautionary advice was given by Cruz and Wishart in their 2006 review of the applications of machine learning to estimating cancer prognosis [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR14" data-toggle="citation">14</a></span>]. They noted that “it is clear that machine learning methods can be used to substantially (15–25%) improve the accuracy of predicting cancer susceptibility, recurrence and mortality” but they also complained that “a number of published studies also appear to lack an appropriate level of validation or testing.”</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par36" class="Para">All this calls for more extensive validation of classifiers than engineers would typically contemplate when developing machine learning algorithms. Moreover, evaluation studies should be done in concordance with professional recommendations for conducting and reporting machine learning studies for predictive use in medicine (e.g. Luo et al. 2016 [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR15" data-toggle="citation">15</a></span>]). This requires a higher level of sophistication than can be gained from Brownlee’s otherwise excellent book. For soon-to-be biomedical engineers just entering the field, this book is a useful beginning but they will need to know much more about how to make technology work in medicine [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR16" data-toggle="citation">16</a></span>].</p>
+              </section></div></section>
+          <section xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="AbbreviationGroup Section1 RenderAsSection1 c-section"><h2 class="Heading js-ToggleCollapseSection c-section__heading" data-sticky-update="true"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Abbreviations" data-toggle="collapse" data-toggle-disable-clickoff="" data-target="Abbreviations">Abbreviations</a></h2><div class="js-CollapseSection CollapseSection c-section__content" data-test="collapse-section" id="Abbreviations"><div class="DefinitionList">
+                <dl class="DefinitionListEntry"><dt class="Term"><dfn>S.D.:&nbsp;</dfn></dt><dd class="Description">
+                    <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par2" class="Para">standard deviation</p>
+                  </dd></dl>
+                <dl class="DefinitionListEntry"><dt class="Term"><dfn>CAD:&nbsp;</dfn></dt><dd class="Description">
+                    <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par3" class="Para">coronary artery disease</p>
+                  </dd></dl>
+                <dl class="DefinitionListEntry"><dt class="Term"><dfn>SVM:&nbsp;</dfn></dt><dd class="Description">
+                    <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par4" class="Para">support vector machine</p>
+                  </dd></dl>
+                <dl class="DefinitionListEntry"><dt class="Term"><dfn>ACS:&nbsp;</dfn></dt><dd class="Description">
+                    <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par5" class="Para">acute coronary symptom</p>
+                  </dd></dl>
+              </div></div></section><section xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="Section1 RenderAsSection1 c-section" data-test="declarations-section" id="Decs"><h2 class="Heading js-ToggleCollapseSection c-section__heading" data-sticky-update="true"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Declarations" data-toggle="collapse" data-toggle-disable-clickoff="" data-target="Declarations">Declarations</a></h2><div class="js-CollapseSection CollapseSection c-section__content" data-test="collapse-section" id="Declarations"><div xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="Acknowledgments"><h3 xmlns="" class="Heading">Authors’ contributions</h3><p xmlns="" class="SimplePara">RK, KF reviewed the book, drafted the manuscript. Both authors read and approved the final manuscript.</p><div id="FPar1" class="FormalPara FormalParaRenderingStyle1">
+                <h3 xmlns="" class="Heading">Acknowledgements</h3>
+                <p id="Par37" class="Para">No outside funding was received for this study.</p>
+              </div><div id="FPar2" class="FormalPara FormalParaRenderingStyle1">
+                <h3 xmlns="" class="Heading">Competing interests</h3>
+                <p id="Par38" class="Para">The authors declare that they have no competing interests.</p>
+              </div><div id="FPar3" class="FormalPara FormalParaRenderingStyle1">
+                <h3 xmlns="" class="Heading">Consent for publication</h3>
+                <p id="Par39" class="Para">Not applicable.</p>
+              </div><div id="FPar4" class="FormalPara FormalParaRenderingStyle1">
+                <h3 xmlns="" class="Heading">Ethics approval and consent to participate</h3>
+                <p id="Par40" class="Para">These studies do not require the consent of the bioethics committee.</p>
+              </div><div id="FPar5" class="FormalPara FormalParaRenderingStyle1">
+                <h3 xmlns="" class="Heading">Funding</h3>
+                <p id="Par41" class="Para">No funding.</p>
+              </div><div id="FPar6" class="FormalPara FormalParaRenderingStyle1">
+                <h3 xmlns="" class="Heading">Publisher’s Note</h3>
+                <p id="Par42" class="Para">Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </div></div><div xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="License">
+                <p xmlns="" class="SimplePara"><strong class="EmphasisTypeBold">Open Access</strong>This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<span xmlns="http://www.w3.org/1999/xhtml" class="ExternalRef"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" class="ext-link"><span class="RefSource">http://creativecommons.org/licenses/by/4.0/</span></a></span>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (<span xmlns="http://www.w3.org/1999/xhtml" class="ExternalRef"><a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank" class="ext-link"><span class="RefSource">http://creativecommons.org/publicdomain/zero/1.0/</span></a></span>) applies to the data made available in this article, unless otherwise stated.</p>
+              </div><aside class="Appendix" id="App1">
+              
+                <h3 class="Heading">Appendix</h3>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par43" class="Para">To illustrate potential problems in applying machine learning methods to biomedical data sets, a series of calculations were done using the Haberman data set [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR17" data-toggle="citation">17</a></span>] (supplementary material). The data set contains 306 cases, women who had undergone surgery for breast cancer between 1958 and 1970 at the University of Chicago’s Billings Hospital [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR18" data-toggle="citation">18</a></span>]. It has three features (year of operation, age of patient at time of diagnosis, and number of nodes) and two classes (patient alive or dead 5&nbsp;years after surgery)</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par44" class="Para">The Haberman data set [<span class="CitationRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#CR17" data-toggle="citation">17</a></span>] has no present day medical value for estimating prognosis, since it lacks important information such as tumor grade, hormone sensitivity, or description of adjuvant therapy. Moreover, it has far too few features to permit effective use of some methods in machine learning such as pruning of decision trees. However, it provides a simple test case for discussions of machine learning (e.g. <span class="ExternalRef"><a href="https://www.kaggle.com/gilsousa/haberman-s-survival" target="_blank" class="ext-link"><span class="RefSource">https://www.kaggle.com/gilsousa/haberman-s-survival</span></a></span>).</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par45" class="Para">For this Appendix, the data set was randomly divided into a learning set comprising 2/3 of the complete data (204 cases) and a test set with the remaining 102 cases. Classifiers were trained and validated using three algorithms in the Matlab Statistical Toolbox (support vector machine (SVM), pruned decision trees and naive Bayes classifier). For each algorithm, this process was repeated 1000 times using randomly chosen training and test sets from the dataset. There was no attempt to address problems arising from the significant imbalance in the data set (66% of the patients were still alive 5&nbsp;years after surgery).</p>
+                <div xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par46" class="Para">Table&nbsp;<span class="InternalRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Tab1">1</a></span> summarizes the results for 3 different classifiers, applied repeatedly to the dataset 1000 times. The mean accuracy of all three classifiers ranged from 67.6% for the Naïve Bayes classifier to 73–74.7% for the other two classifiers&nbsp;(Fig. <span class="InternalRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Fig1">1</a></span>). This performance was not impressive, in part because of the very small number of attributes, but nevertheless was considerably better than one could get by assigning outcomes by chance (50% accuracy).<figure xmlns="" class="Figure" id="Fig1"><div xmlns="http://www.w3.org/1999/xhtml" class="MediaObject" id="MO1">
+                      <a target="_blank" rel="noopener" href="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12938-018-0449-9/MediaObjects/12938_2018_449_Fig1_HTML.gif"><img class="c-lazy-image u-js-shown" src="./Machine learning and medicine book review and commentary_files/12938_2018_449_Fig1_HTML.gif" alt="Fig. 1" data-lazy-load="true" data-src="https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-018-0449-9/MediaObjects/12938_2018_449_Fig1_HTML.gif"><noscript><img src="https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-018-0449-9/MediaObjects/12938_2018_449_Fig1_HTML.gif" alt="Fig.&nbsp;1"></img></noscript></a>
+                    </div><figcaption class="Caption" lang="en"><div xmlns="http://www.w3.org/1999/xhtml" class="CaptionContent"><span class="CaptionNumber">Fig.&nbsp;1</span>
+                        <p xmlns="" class="SimplePara">Graph of dependence of accuracy (<em class="EmphasisTypeItalic">ACC</em>) for 1000 drawings of data for learning and test vector for different classifiers</p>
+                      </div></figcaption></figure><figure xmlns="" id="Tab1" class="FigureTable"><figcaption class="Caption" lang="en"><div xmlns="http://www.w3.org/1999/xhtml" class="CaptionContent"><span class="CaptionNumber">Table&nbsp;1</span>
+                        <p xmlns="" class="SimplePara">Summary of the mean, minimum and maximum values of accuracy for 1000 drawings of data for the learning and test vector for various classifiers</p>
+                      </div></figcaption><div class="Table"><table xmlns="http://www.w3.org/1999/xhtml" border="1"><colgroup><col><col char="."><col char="."><col char="."></colgroup><thead><tr class="header"><th><p xmlns="" class="SimplePara">Type of classifier</p></th><th char="."><p xmlns="" class="SimplePara">Min (<em class="EmphasisTypeItalic">ACC</em>)</p></th><th char="."><p xmlns="" class="SimplePara">Mean (<em class="EmphasisTypeItalic">ACC</em>)</p></th><th char="."><p xmlns="" class="SimplePara">Max (<em class="EmphasisTypeItalic">ACC</em>)</p></th></tr></thead><tbody><tr class="noclass"><td><p xmlns="" class="SimplePara">Support vector machine (SVM)</p></td><td char="."><p xmlns="" class="SimplePara">60</p></td><td char="."><p xmlns="" class="SimplePara">73.0</p></td><td char="."><p xmlns="" class="SimplePara">84</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">Pruned decision tree</p></td><td char="."><p xmlns="" class="SimplePara">53</p></td><td char="."><p xmlns="" class="SimplePara">67.6</p></td><td char="."><p xmlns="" class="SimplePara">79</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">Naive Bayes classifier</p></td><td char="."><p xmlns="" class="SimplePara">62</p></td><td char="."><p xmlns="" class="SimplePara">74.7</p></td><td char="."><p xmlns="" class="SimplePara">86</p></td></tr></tbody></table></div></figure></div>
+                <div xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par47" class="Para">A closer look at the data set shows that, while the two classes have very similar characteristics (Table&nbsp;<span class="InternalRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Tab2">2</a></span>), the age distributions have subtle differences, particularly at their ends&nbsp;(Fig. <span class="InternalRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Fig2">2</a></span>). A calculation of 5-year survival probability from the dataset (Table&nbsp;<span class="InternalRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Tab3">3</a></span>) shows that the 5-year survival of the older women was lower than for younger patients, although the differences were small and perhaps not statistically significant (Table&nbsp;<span class="InternalRef"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Tab3">3</a></span>). By contrast, the number of tumor nodes among the 5-year survivors at time of surgery was slightly higher than among the decedents (2.8 vs. 2.0), which is in the unexpected direction. However, the distribution of this attribute was about the same for both groups, and this attribute contributed little to the training of the classifiers.<figure xmlns="" class="Figure" id="Fig2"><div xmlns="http://www.w3.org/1999/xhtml" class="MediaObject" id="MO2">
+                      <a target="_blank" rel="noopener" href="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12938-018-0449-9/MediaObjects/12938_2018_449_Fig2_HTML.gif"><img class="c-lazy-image u-js-shown" src="./Machine learning and medicine book review and commentary_files/12938_2018_449_Fig2_HTML.gif" alt="Fig. 2" data-lazy-load="true" data-src="https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-018-0449-9/MediaObjects/12938_2018_449_Fig2_HTML.gif"><noscript><img src="https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-018-0449-9/MediaObjects/12938_2018_449_Fig2_HTML.gif" alt="Fig.&nbsp;2"></img></noscript></a>
+                    </div><figcaption class="Caption" lang="en"><div xmlns="http://www.w3.org/1999/xhtml" class="CaptionContent"><span class="CaptionNumber">Fig.&nbsp;2</span>
+                        <p xmlns="" class="SimplePara">Distribution of ages at time of operation vs. status after 5&nbsp;years</p>
+                      </div></figcaption></figure><figure xmlns="" id="Tab2" class="FigureTable"><figcaption class="Caption" lang="en"><div xmlns="http://www.w3.org/1999/xhtml" class="CaptionContent"><span class="CaptionNumber">Table&nbsp;2</span>
+                        <p xmlns="" class="SimplePara">Characteristics of subjects in Haberman data set</p>
+                      </div></figcaption><div class="Table"><table xmlns="http://www.w3.org/1999/xhtml" border="1"><colgroup><col><col><col><col char="."></colgroup><thead><tr class="header"><th>&nbsp;</th><th><p xmlns="" class="SimplePara">Class 1 (patient alive 5&nbsp;years after operation) (n&nbsp;=&nbsp;204)</p><p xmlns="" class="SimplePara">(mean&nbsp;±&nbsp;S.D.)</p></th><th><p xmlns="" class="SimplePara">Class 2 (patient died within 5&nbsp;years of operation) (n&nbsp;=&nbsp;102)</p><p xmlns="" class="SimplePara">(mean&nbsp;±&nbsp;S.D.)</p></th><th char="."><p xmlns="" class="SimplePara">
+                              <em class="EmphasisTypeItalic">p</em>
+                            </p></th></tr></thead><tbody><tr class="noclass"><td><p xmlns="" class="SimplePara">Mean date of operation</p></td><td><p xmlns="" class="SimplePara">Aug. 1962&nbsp;±&nbsp;3.2&nbsp;years</p></td><td><p xmlns="" class="SimplePara">Aug. 1962&nbsp;±&nbsp;3.3&nbsp;years</p></td><td char=".">&nbsp;</td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">Patient age at time of operation (mean&nbsp;±&nbsp;S.D.)</p></td><td char="±"><p xmlns="" class="SimplePara">52.0&nbsp;±&nbsp;11.0</p></td><td char="±"><p xmlns="" class="SimplePara">53.7&nbsp;±&nbsp;10.2</p></td><td char="."><p xmlns="" class="SimplePara">0.19</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">Number of nodes (mean&nbsp;±&nbsp;S.D.)</p></td><td char="±"><p xmlns="" class="SimplePara">2.8&nbsp;±&nbsp;5.9</p></td><td char="±"><p xmlns="" class="SimplePara">2.0&nbsp;±&nbsp;9.2</p></td><td char="."><p xmlns="" class="SimplePara">0.36</p></td></tr></tbody></table></div></figure> <figure xmlns="" id="Tab3" class="FigureTable"><figcaption class="Caption" lang="en"><div xmlns="http://www.w3.org/1999/xhtml" class="CaptionContent"><span class="CaptionNumber">Table&nbsp;3</span>
+                        <p xmlns="" class="SimplePara">Probabilty of 5-year survival as function of age at time of surgery (from Haberman data set)</p>
+                      </div></figcaption><div class="Table"><table xmlns="http://www.w3.org/1999/xhtml" border="1"><colgroup><col><col char="."><col char="."><col char="."></colgroup><thead><tr class="header"><th><p xmlns="" class="SimplePara">Age range</p></th><th char="."><p xmlns="" class="SimplePara">Subjects</p></th><th char="."><p xmlns="" class="SimplePara">Alive after 5&nbsp;years</p></th><th char="."><p xmlns="" class="SimplePara">Probability alive at 5&nbsp;years</p></th></tr></thead><tbody><tr class="noclass"><td><p xmlns="" class="SimplePara">30–34</p></td><td char="."><p xmlns="" class="SimplePara">14</p></td><td char="."><p xmlns="" class="SimplePara">12</p></td><td char="."><p xmlns="" class="SimplePara">0.86</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">35–39</p></td><td char="."><p xmlns="" class="SimplePara">26</p></td><td char="."><p xmlns="" class="SimplePara">24</p></td><td char="."><p xmlns="" class="SimplePara">0.92</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">40–44</p></td><td char="."><p xmlns="" class="SimplePara">40</p></td><td char="."><p xmlns="" class="SimplePara">28</p></td><td char="."><p xmlns="" class="SimplePara">0.70</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">45–49</p></td><td char="."><p xmlns="" class="SimplePara">44</p></td><td char="."><p xmlns="" class="SimplePara">29</p></td><td char="."><p xmlns="" class="SimplePara">0.66</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">50–54</p></td><td char="."><p xmlns="" class="SimplePara">56</p></td><td char="."><p xmlns="" class="SimplePara">38</p></td><td char="."><p xmlns="" class="SimplePara">0.68</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">55–59</p></td><td char="."><p xmlns="" class="SimplePara">43</p></td><td char="."><p xmlns="" class="SimplePara">35</p></td><td char="."><p xmlns="" class="SimplePara">0.81</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">60–64</p></td><td char="."><p xmlns="" class="SimplePara">35</p></td><td char="."><p xmlns="" class="SimplePara">26</p></td><td char="."><p xmlns="" class="SimplePara">0.74</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">65–69</p></td><td char="."><p xmlns="" class="SimplePara">27</p></td><td char="."><p xmlns="" class="SimplePara">18</p></td><td char="."><p xmlns="" class="SimplePara">0.67</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">70–74</p></td><td char="."><p xmlns="" class="SimplePara">16</p></td><td char="."><p xmlns="" class="SimplePara">12</p></td><td char="."><p xmlns="" class="SimplePara">0.75</p></td></tr><tr class="noclass"><td><p xmlns="" class="SimplePara">75–79</p></td><td char="."><p xmlns="" class="SimplePara">4</p></td><td char="."><p xmlns="" class="SimplePara">3</p></td><td char="."><p xmlns="" class="SimplePara">0.75</p></td></tr></tbody></table></div></figure></div>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par48" class="Para">We conclude that the classifiers are training chiefly on small differences in the age distribution in survivors vs. decedents, particularly at the ends of the distributions. This is likely to make the results very fragile, i.e. difficult to replicate with different data sets.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par49" class="Para">The medical significance of these classifiers with that data set are unclear. A higher 5-year mortality among the older women may result from a greater vulnerability to the disease or to complications of treatment. Or it may reflect a higher noncancer mortality rate in the older women. Apart from choosing younger patients, it is difficult to envision how physicans could use these results to improve treatment of their patients.</p>
+                <p xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" id="Par50" class="Para">The above discussion shows the need to consider both the mechanics of developing classifiers, as well as the medical context and requirements for their use. Students reading Brownlee’s fine book will get a feeling for the first of these, but they need a sophisticated understanding of the second as well.</p>
+              
+            </aside><aside class="Appendix" id="App2">
+              
+                <h3 class="Heading">Additional files</h3><div id="widgetContainer" data-test="figshare-container"></div>
+                <div xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="Para">
+                  <div class="MediaObject" id="MOESM1">
+                    <div xmlns="" class="esm-item "><div xmlns="http://www.w3.org/1999/xhtml" class="caption-container"><a class="filename" href="https://static-content.springer.com/esm/art%3A10.1186%2Fs12938-018-0449-9/MediaObjects/12938_2018_449_MOESM1_ESM.pdf">12938_2018_449_MOESM1_ESM.pdf</a>
+                          <span xmlns="" class="SimplePara"><span xmlns="http://www.w3.org/1999/xhtml" class="ExternalRef"><a href="https://doi.org/10.1186/s12938-018-0449-9" target="_blank" class="ext-link"><span class="RefSource">
+                                <strong xmlns="" class="EmphasisTypeBold">Additional file 1.</strong>
+                              </span></a></span> Examples that illustrate potential problems with machine learning.</span>
+                        </div></div>
+                  </div>
+                </div>
+              
+            </aside></div></section></div>
+                        <div class="FulltextWrapper"><section xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="Section1 RenderAsSection1 c-section Affiliations" id="Aff"><h2 class="Heading js-ToggleCollapseSection c-section__heading" data-sticky-update="true"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#Author-Affiliations" data-toggle="collapse" data-toggle-disable-clickoff="" data-target="Author-Affiliations">Authors’ Affiliations</a></h2><div class="js-CollapseSection CollapseSection c-section__content c-section__content" data-test="collapse-section" id="Author-Affiliations"><div xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="Affiliation" id="Aff1"><span class="AffiliationNumber">(1)</span><div class="AffiliationText">Department of Biomedical Computer Systems, Faculty of Computer Science and Materials Science, Institute of Computer Science, University of Silesia, ul. Będzińska 39, Sosnowiec, 41-200, Poland</div></div><div xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="Affiliation" id="Aff2"><span class="AffiliationNumber">(2)</span><div class="AffiliationText">Department of Bioengineering, University of Pennsylvania, Philadelphia, USA</div></div></div></section></div>
+                        <div class="FulltextWrapper"><section xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="Section1 RenderAsSection1 c-section SectionTypeMaterialsAndMethods" id="Bib1"><h2 class="Heading js-ToggleCollapseSection c-section__heading" data-sticky-update="true"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#References" data-toggle="collapse" data-toggle-disable-clickoff="" data-target="References">References</a></h2><div class="js-CollapseSection CollapseSection c-section__content" data-test="collapse-section" id="References"><ol class="BibliographyWrapper"><li class="Citation"><cite class="CitationContent" id="CR1" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Deo RC. Machine learning in medicine. Circulation. 2015;132(20):1920–30.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.1161/CIRCULATIONAHA.115.001593"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=Machine%20learning%20in%20medicine&amp;author=RC.%20Deo&amp;journal=Circulation&amp;volume=132&amp;issue=20&amp;pages=1920-1930&amp;publication_year=2015"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR2" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Baştanlar Y, Ozuysal M. Introduction to machine learning. Methods Mol Biol. 2014;1107:105–28.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.1007/978-1-62703-748-8_7"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=Introduction%20to%20machine%20learning&amp;author=Y.%20Ba%C5%9Ftanlar&amp;author=M.%20Ozuysal&amp;journal=Methods%20Mol%20Biol&amp;volume=1107&amp;pages=105-128&amp;publication_year=2014"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR3" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">James G, Witten D, Hastie T, Tibshirani R. An introduction to statistical learning. New York: Springer; 2013.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.1007/978-1-4614-7138-7"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?$1281.62147"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=An%20introduction%20to%20statistical%20learning&amp;author=G.%20James&amp;author=D.%20Witten&amp;author=T.%20Hastie&amp;author=R.%20Tibshirani&amp;publication_year=2013"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR4" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Rogers S, Girolami M. A first course in machine learning. Boca Raton: CRC Press Inc; 2012. ISBN 978-1-4398-2414-6.</span><span class="Occurrences"><span class="Occurrence OccurrenceZLBID"><a target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?$1342.68004"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=A%20first%20course%20in%20machine%20learning&amp;author=S.%20Rogers&amp;author=M.%20Girolami&amp;publication_year=2012"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR5" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Kevin PM. Machine learning, a probabilistic perspective. Cambridge: MIT Press; 2012. ISBN 9780262306164.</span><span class="Occurrences"><span class="Occurrence OccurrenceZLBID"><a target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?$1295.68003"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=Machine%20learning%2C%20a%20probabilistic%20perspective&amp;author=PM.%20Kevin&amp;publication_year=2012"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR6" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Ivezic A. Statistics, data mining, and machine learning in astronomy, practical python guide for the analysis of survey data. Georgia: University Press Group Ltd; 2014. ISBN 9780691151687.<span xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar?hl=en&amp;q=Ivezic%20A.%20Statistics%2C%20data%20mining%2C%20and%20machine%20learning%20in%20astronomy%2C%20practical%20python%20guide%20for%20the%20analysis%20of%20survey%20data.%20Georgia%3A%20University%20Press%20Group%20Ltd%3B%202014.%20ISBN%209780691151687."><span><span>Google Scholar</span></span></a></span></span></span><span class="Occurrences"></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR7" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Alizadehsani R, et al. A data mining approach for diagnosis of coronary artery disease. Comput Methods Progr Biomed. 2013;111(1):52–61.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.1016/j.cmpb.2013.03.004"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=A%20data%20mining%20approach%20for%20diagnosis%20of%20coronary%20artery%20disease&amp;author=R.%20Alizadehsani&amp;journal=Comput%20Methods%20Progr%20Biomed&amp;volume=111&amp;issue=1&amp;pages=52-61&amp;publication_year=2013"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR8" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">James D. McCaffrey, <span xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="ExternalRef"><a href="https://jamesmccaffrey.wordpress.com/2017/08/25/habermans-survival-data/" target="_blank" class="ext-link"><span class="RefSource">https://jamesmccaffrey.wordpress.com/2017/08/25/habermans-survival-data/</span></a></span>. Accessed 29 Jan 2018.</span><span class="Occurrences"></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR9" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">He T, Liu X, Xu N, Li Y, Wu Q, Liu M, Yuan H. Diagnostic models of the pre-test probability of stable coronary artery disease: a systematic review. Clinics. 2017;72(3):188–96.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.6061/clinics/2017(03)10"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=Diagnostic%20models%20of%20the%20pre-test%20probability%20of%20stable%20coronary%20artery%20disease%3A%20a%20systematic%20review&amp;author=T.%20He&amp;author=X.%20Liu&amp;author=N.%20Xu&amp;author=Y.%20Li&amp;author=Q.%20Wu&amp;author=M.%20Liu&amp;author=H.%20Yuan&amp;journal=Clinics&amp;volume=72&amp;issue=3&amp;pages=188-196&amp;publication_year=2017"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR10" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Korley FK, Gatsonis C, Snyder BS, George RT, Abd T, Zimmerman SL, Litt HI, Hollander JE. Clinical risk factors alone are inadequate for predicting significant coronary artery disease. J Cardiovasc Comput Tomogr. 2017;11(4):309–16.<span xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar?hl=en&amp;q=Korley%20FK%2C%20Gatsonis%20C%2C%20Snyder%20BS%2C%20George%20RT%2C%20Abd%20T%2C%20Zimmerman%20SL%2C%20Litt%20HI%2C%20Hollander%20JE.%20Clinical%20risk%20factors%20alone%20are%20inadequate%20for%20predicting%20significant%20coronary%20artery%20disease.%20J%20Cardiovasc%20Comput%20Tomogr.%202017%3B11%284%29%3A309%E2%80%9316."><span><span>Google Scholar</span></span></a></span></span></span><span class="Occurrences"></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR11" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Wishart GC, Azzato EM, Greenberg DC, Rashbass J, Kearins O, Lawrence G, Caldas C, Pharoah PD. PREDICT: a new UK prognostic model that predicts survival following surgery for invasive breast cancer. Breast Cancer Res. 2010;12(1):R1.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.1186/bcr2464"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=PREDICT%3A%20a%20new%20UK%20prognostic%20model%20that%20predicts%20survival%20following%20surgery%20for%20invasive%20breast%20cancer&amp;author=GC.%20Wishart&amp;author=EM.%20Azzato&amp;author=DC.%20Greenberg&amp;author=J.%20Rashbass&amp;author=O.%20Kearins&amp;author=G.%20Lawrence&amp;author=C.%20Caldas&amp;author=PD.%20Pharoah&amp;journal=Breast%20Cancer%20Res&amp;volume=12&amp;issue=1&amp;pages=R1&amp;publication_year=2010"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR12" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Goldstein BA, et al. Opportunities and challenges in developing risk prediction models with electronic health records data: a systematic review. J Am Med Inform Assoc. 2017;24(1):198–208.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.1093/jamia/ocw042"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=Opportunities%20and%20challenges%20in%20developing%20risk%20prediction%20models%20with%20electronic%20health%20records%20data%3A%20a%20systematic%20review&amp;author=BA.%20Goldstein&amp;journal=J%20Am%20Med%20Inform%20Assoc&amp;volume=24&amp;issue=1&amp;pages=198-208&amp;publication_year=2017"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR13" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Goldstein BA, Navar AM, Carter RE. Moving beyond regression techniques in cardiovascular risk prediction: applying machine learning to address analytic challenges. Eur Heart J. 2016;38(23):1805–14.<span xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar?hl=en&amp;q=Goldstein%20BA%2C%20Navar%20AM%2C%20Carter%20RE.%20Moving%20beyond%20regression%20techniques%20in%20cardiovascular%20risk%20prediction%3A%20applying%20machine%20learning%20to%20address%20analytic%20challenges.%20Eur%20Heart%20J.%202016%3B38%2823%29%3A1805%E2%80%9314."><span><span>Google Scholar</span></span></a></span></span></span><span class="Occurrences"></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR14" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Cruz Joseph A, Wishart David S. Applications of machine learning in cancer prediction and prognosis. Cancer Inform. 2006;2:59.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.1177/117693510600200030"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=Applications%20of%20machine%20learning%20in%20cancer%20prediction%20and%20prognosis&amp;author=Joseph%20A.%20Cruz&amp;author=David%20S.%20Wishart&amp;journal=Cancer%20Inform&amp;volume=2&amp;pages=59&amp;publication_year=2006"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR15" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Luo W, Phung D, Tran T, Gupta S, Rana S, Karmakar C, Shilton A, Yearwood J, Dimitrova N, Ho TB, Venkatesh S. Guidelines for developing and reporting machine learning predictive models in biomedical research: a multidisciplinary view. J Med Internet Res. 2016;18(12):e323.<span xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar?hl=en&amp;q=Luo%20W%2C%20Phung%20D%2C%20Tran%20T%2C%20Gupta%20S%2C%20Rana%20S%2C%20Karmakar%20C%2C%20Shilton%20A%2C%20Yearwood%20J%2C%20Dimitrova%20N%2C%20Ho%20TB%2C%20Venkatesh%20S.%20Guidelines%20for%20developing%20and%20reporting%20machine%20learning%20predictive%20models%20in%20biomedical%20research%3A%20a%20multidisciplinary%20view.%20J%20Med%20Internet%20Res.%202016%3B18%2812%29%3Ae323."><span><span>Google Scholar</span></span></a></span></span></span><span class="Occurrences"></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR16" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Ambale-Venkatesh B, Yang X, Wu CO, Liu K, Hundley WG, McClelland R, Gomes AS, Folsom AR, Shea S, Guallar E, Bluemke DA, Lima JAC. Cardiovascular event prediction by machine learning: the Multi-Ethnic Study of Atherosclerosis. Circ Res. 2017;121:1092–101.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.1161/CIRCRESAHA.117.311312"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=Cardiovascular%20event%20prediction%20by%20machine%20learning%3A%20the%20Multi-Ethnic%20Study%20of%20Atherosclerosis&amp;author=B.%20Ambale-Venkatesh&amp;author=X.%20Yang&amp;author=CO.%20Wu&amp;author=K.%20Liu&amp;author=WG.%20Hundley&amp;author=R.%20McClelland&amp;author=AS.%20Gomes&amp;author=AR.%20Folsom&amp;author=S.%20Shea&amp;author=E.%20Guallar&amp;author=DA.%20Bluemke&amp;author=JAC.%20Lima&amp;journal=Circ%20Res&amp;volume=121&amp;pages=1092-1101&amp;publication_year=2017"><span><span>Google Scholar</span></span></a></span></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR17" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Haberman SJ. Generalized residuals for log-linear models, proceedings of the 9th International Biometrics Conference, Boston, 1976;104–122.<span xmlns:func="http://oscar.fig.bmc.com" xmlns="http://www.w3.org/1999/xhtml" class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar?hl=en&amp;q=Haberman%20SJ.%20Generalized%20residuals%20for%20log-linear%20models%2C%20proceedings%20of%20the%209th%20International%20Biometrics%20Conference%2C%20Boston%2C%201976%3B104%E2%80%93122."><span><span>Google Scholar</span></span></a></span></span></span><span class="Occurrences"></span></cite></li><li class="Citation"><cite class="CitationContent" id="CR18" itemprop="citation" itemscope="" itemtype="http://schema.org/ScholarlyArticle"><span itemprop="headline">Landwehr JM, Pregibon D, Shoemaker AC. Graphical models for assessing logistic regression models (with discussion). J Am Stat Assoc. 1984;79:61–83.</span><span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a target="_blank" rel="noopener" href="https://doi.org/10.1080/01621459.1984.10477062"><span><span>View Article</span></span></a></span><span class="Occurrence OccurrenceZLBID"><a target="_blank" rel="noopener" href="http://www.emis.de/MATH-item?$0531.65080"><span><span>MATH</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" href="http://scholar.google.com/scholar_lookup?title=Graphical%20models%20for%20assessing%20logistic%20regression%20models%20%28with%20discussion%29&amp;author=JM.%20Landwehr&amp;author=D.%20Pregibon&amp;author=AC.%20Shoemaker&amp;journal=J%20Am%20Stat%20Assoc&amp;volume=79&amp;pages=61-83&amp;publication_year=1984"><span><span>Google Scholar</span></span></a></span></span></cite></li></ol></div></section><section xmlns="" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:meta="http://www.springer.com/app/meta" class="Section1 RenderAsSection1 c-section" id="CopyrightMessage"><h2 class="Heading js-ToggleCollapseSection c-section__heading" data-sticky-update="true"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#TheAuthors" data-toggle="collapse" data-toggle-disable-clickoff="" data-target="TheAuthors">Copyright</a></h2><div class="js-CollapseSection CollapseSection c-section__content" data-test="collapse-section" id="TheAuthors"><div xmlns="http://www.w3.org/1999/xhtml" class="ArticleCopyright">©&nbsp;The Author(s)&nbsp;2018</div></div></section></div>
+                        
+
+
+                    </article>
+                </main>
+
+                <div class="c-content-layout__side u-text-sm">
+                    <aside>
+                        <div class="p-separator">
+                            
+        <p class="u-margin-bottom-sm">
+            <a id="articlePdf" data-test="download-pdf" class="c-button c-button--primary c-button--full-width" target="_blank" rel="noopener" href="https://biomedical-engineering-online.biomedcentral.com/track/pdf/10.1186/s12938-018-0449-9" data-track="click" data-track-category="PDF Download" data-track-action="Click download article PDF" data-track-label="10.1186/s12938-018-0449-9">Download PDF</a>
+        </p>
+    
+                            
+                            
+    <button type="button" class="c-button c-button--secondary c-button--full-width c-button--expandable" data-toggle="collapse" data-target="export-citations" data-test="export-citations-button" data-sticky-update="true" aria-controls="export-citations" aria-expanded="false">
+        <span class="c-dropdown__toggle">Export citations</span>
+    </button>
+    <div id="export-citations" class="c-export-citations" data-test="export-citations-content" aria-expanded="false">
+        <div class="c-export-citations__section">
+            <h4 class="c-export-citations__title">Papers, Zotero, Reference Manager, RefWorks (<strong>.RIS</strong>)</h4>
+            <ul class="c-export-citations__list" id="articleReferences">
+                <li><a data-track="click" data-track-category="Article Page" data-track-action="Download Papers, Zotero, Reference Manager, RefWorks article citations" data-track-label="10.1186/s12938-018-0449-9" href="http://citation-needed.springer.com/v2/references/10.1186/s12938-018-0449-9?format=refman&amp;flavour=citation">
+                    <svg class="c-export-citations__icon" width="12" height="12" aria-hidden="true">
+                        <use xlink:href="#icon-download"></use>
+                    </svg>
+                    <span class="u-visually-hidden">Download </span>Citations
+                </a></li>
+                <li><a data-track="click" data-track-category="Article Page" data-track-action="Download Papers, Zotero, Reference Manager, RefWorks references" data-track-label="10.1186/s12938-018-0449-9" href="http://citation-needed.springer.com/v2/references/10.1186/s12938-018-0449-9?format=refman&amp;flavour=references">
+                    <svg class="c-export-citations__icon" width="12" height="12" aria-hidden="true">
+                        <use xlink:href="#icon-download"></use>
+                    </svg>
+                    <span class="u-visually-hidden">Download </span>References
+                </a></li>
+                <li><a data-track="click" data-track-category="Article Page" data-track-action="Download Papers, Zotero, Reference Manager, RefWorks citations and references" data-track-label="10.1186/s12938-018-0449-9" href="http://citation-needed.springer.com/v2/references/10.1186/s12938-018-0449-9?format=refman&amp;flavour=full">
+                    <svg class="c-export-citations__icon" width="12" height="12" aria-hidden="true">
+                        <use xlink:href="#icon-download"></use>
+                    </svg>
+                    <span class="u-visually-hidden">Download </span>Both
+                </a></li>
+            </ul>
+        </div>
+        <div class="c-export-citations__section">
+            <h4 class="c-export-citations__title">EndNote (<strong>.ENW</strong>)</h4>
+            <ul class="c-export-citations__list">
+                <li><a data-track="click" data-track-category="Article Page" data-track-action="Download EndNote article citations" data-track-label="10.1186/s12938-018-0449-9" href="http://citation-needed.springer.com/v2/references/10.1186/s12938-018-0449-9?format=endnote&amp;flavour=citation">
+                    <svg class="c-export-citations__icon" width="12" height="12" aria-hidden="true">
+                        <use xlink:href="#icon-download"></use>
+                    </svg>
+                    <span class="u-visually-hidden">Download </span>Citations
+                </a></li>
+                <li><a data-track="click" data-track-category="Article Page" data-track-action="Download EndNote references" data-track-label="10.1186/s12938-018-0449-9" href="http://citation-needed.springer.com/v2/references/10.1186/s12938-018-0449-9?format=endnote&amp;flavour=references">
+                    <svg class="c-export-citations__icon" width="12" height="12" aria-hidden="true">
+                        <use xlink:href="#icon-download"></use>
+                    </svg>
+                    <span class="u-visually-hidden">Download </span>References
+                </a></li>
+                <li><a data-track="click" data-track-category="Article Page" data-track-action="Download EndNote citations and references" data-track-label="10.1186/s12938-018-0449-9" href="http://citation-needed.springer.com/v2/references/10.1186/s12938-018-0449-9?format=endnote&amp;flavour=full">
+                    <svg class="c-export-citations__icon" width="12" height="12" aria-hidden="true">
+                        <use xlink:href="#icon-download"></use>
+                    </svg>
+                    <span class="u-visually-hidden">Download </span>Both
+                </a></li>
+            </ul>
+        </div>
+        <div class="c-export-citations__section">
+            <h4 class="c-export-citations__title">Mendeley, JabRef (<strong>.BIB</strong>)</h4>
+            <ul class="c-export-citations__list">
+                <li><a data-track="click" data-track-category="Article Page" data-track-action="Download Mendeley, JabRef article citations" data-track-label="10.1186/s12938-018-0449-9" href="http://citation-needed.springer.com/v2/references/10.1186/s12938-018-0449-9?format=bibtex&amp;flavour=citation">
+                    <svg class="c-export-citations__icon" width="12" height="12" aria-hidden="true">
+                        <use xlink:href="#icon-download"></use>
+                    </svg>
+                    <span class="u-visually-hidden">Download </span>Citations
+                </a></li>
+                <li><a data-track="click" data-track-category="Article Page" data-track-action="Download Mendeley, JabRef references" data-track-label="10.1186/s12938-018-0449-9" href="http://citation-needed.springer.com/v2/references/10.1186/s12938-018-0449-9?format=bibtex&amp;flavour=references">
+                    <svg class="c-export-citations__icon" width="12" height="12" aria-hidden="true">
+                        <use xlink:href="#icon-download"></use>
+                    </svg>
+                    <span class="u-visually-hidden">Download </span>References
+                </a></li>
+                <li><a data-track="click" data-track-category="Article Page" data-track-action="Download Mendeley, JabRef citations and references" data-track-label="10.1186/s12938-018-0449-9" href="http://citation-needed.springer.com/v2/references/10.1186/s12938-018-0449-9?format=bibtex&amp;flavour=full">
+                    <svg class="c-export-citations__icon" width="12" height="12" aria-hidden="true">
+                        <use xlink:href="#icon-download"></use>
+                    </svg>
+                    <span class="u-visually-hidden">Download </span>Both
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+                        </div>
+                        
+    
+ 
+                        
+    
+        <div id="articleCollections" class="p-separator">
+            <h3 class="p-section-title">In these collections</h3>
+            <ul class="c-list-group c-list-group--bordered c-list-group c-list-group--lg">
+                
+                    <li class="c-list-group__item">
+                        <a href="https://www.biomedcentral.com/collections/AI" title="Artificial Intelligence in biomedical imaging" data-track="click" data-track-category="Article Page|Article Page" data-track-action="Click collection link|Click collection link" data-track-label="AI|10.1186/s12938-018-0449-9">Artificial Intelligence in biomedical imaging</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+ 
+                        <div class="p-separator">
+                            <h3 class="p-section-title">Metrics</h3>
+                            <ul class="c-list-group c-list-group--md">
+                                
+            <li class="c-list-group__item">
+                Article accesses:
+                
+                    1725
+                
+            </li>
+        
+                                
+            <li class="c-list-group__item">
+                Citations: 1 <a href="http://citations.springer.com/item?doi=10.1186/s12938-018-0449-9" rel="noopener" target="_blank">more information</a>
+            </li>
+        
+                                
+    <li class="c-list-group__item">
+        <p>Altmetric Attention Score: 1</p>
+        <div class="altmetric">
+            <a class="altmetric__link" href="http://www.altmetric.com/details.php?citation_id=32778689&amp;domain=www.biomedcentral.com" target="_blank" rel="noopener" data-track="click" data-track-category="Article Page" data-track-action="Click Altmetric" data-track-label="10.1186/s12938-018-0449-9">
+                <img class="altmetric__img" src="./Machine learning and medicine book review and commentary_files/saved_resource" alt="Altmetric Attention Score">
+            </a>
+        </div>
+    </li>
+
+                            </ul>
+                        </div>
+                        
+    <div class="p-separator">
+        <div class="js-shown">
+            <h3 class="p-section-title">Share this article</h3>
+            <ul data-test="social-media-share-buttons" class="c-social-links">
+                <li class="c-social-links__item">
+                    <button id="shareOnTwitter" class="js-btnShareOnTwitter" data-track="click" data-track-category="Article Page" data-track-action="Share Twitter" data-track-label="10.1186/s12938-018-0449-9">
+                        <span class="u-visually-hidden">Share on Twitter</span>
+                        <svg class="c-icon c-social-links__icon" width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="c-social-links__item">
+                    <button id="shareOnFacebook" class="js-btnShareOnFacebook" data-track="click" data-track-category="Article Page" data-track-action="Share Facebook" data-track-label="10.1186/s12938-018-0449-9">
+                        <span class="u-visually-hidden">Share on Facebook</span>
+                        <svg class="c-icon c-social-links__icon" width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#icon-facebook"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="c-social-links__item">
+                    <button id="shareOnLinkedIn" class="js-btnShareOnLinkedIn" data-track="click" data-track-category="Article Page" data-track-action="Share LinkedIn" data-track-label="10.1186/s12938-018-0449-9">
+                        <span class="u-visually-hidden">Share on LinkedIn</span>
+                        <svg class="c-icon c-social-links__icon" width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#icon-linkedin"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="c-social-links__item">
+                    <button id="shareOnWeibo" class="js-btnShareOnWeibo" data-track="click" data-track-category="Article Page" data-track-action="Share Weibo" data-track-label="10.1186/s12938-018-0449-9">
+                        <span class="u-visually-hidden">Share on Weibo</span>
+                        <svg class="c-icon c-social-links__icon" width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#icon-weibo"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="c-social-links__item">
+                    <button id="shareOnGooglePlus" class="js-btnShareOnGplus" data-track="click" data-track-category="Article Page" data-track-action="Share Google+" data-track-label="10.1186/s12938-018-0449-9">
+                        <span class="u-visually-hidden">Share on Google Plus</span>
+                        <svg class="c-icon c-social-links__icon" width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#icon-gplus"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="c-social-links__item">
+                    <button id="shareOnReddit" class="js-btnShareOnReddit" data-track="click" data-track-category="Article Page" data-track-action="Share Reddit" data-track-label="10.1186/s12938-018-0449-9">
+                        <span class="u-visually-hidden">Share on Reddit</span>
+                        <svg class="c-icon c-social-links__icon" width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#icon-reddit"></use>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        
+            <div data-sharedit="container">
+                <a class="c-button c-button--secondary c-button--full-width u-margin-top-sm" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9/sharedit" rel="nofollow" data-sharedit="button" data-track="click" data-track-category="sharedit" data-track-action="click article sharedit button" data-track-label="10.1186/s12938-018-0449-9">Get shareable link</a>
+            </div>
+        
+    </div>
+ 
+                        
+    
+        <div class="p-separator u-js-shown">
+            <h3 class="p-section-title">See updates</h3>
+            <button class="c-crossmark-button" data-target="crossmark" data-test="crossmark" data-track="click" data-track-category="Article Page" data-track-action="Click CrossMark" data-track-label="10.1186/s12938-018-0449-9" style="cursor: pointer;">
+                <img id="crossmark-icon" src="./Machine learning and medicine book review and commentary_files/CROSSMARK_Color_horizontal.svg" alt="Crossmark logo">
+            </button>
+        </div>
+    
+ 
+                        <div class="p-separator">
+                            <h3 class="p-section-title">Other Actions</h3>
+                            <ul class="c-list-group c-list-group--bordered c-list-group c-list-group--md">
+                                <li class="c-list-group__item">
+                                    
+    <a data-track="click" data-track-category="Article Page" data-track-action="Order article reprints" data-track-label="10.1186/s12938-018-0449-9" href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&amp;page=0&amp;journal=738&amp;doi=10.1186%2Fs12938-018-0449-9&amp;volume=17&amp;issue=1&amp;title=Machine+learning+and+medicine%3A+book+review+and+commentary&amp;author_name=Robert+Koprowski&amp;start_page=1&amp;end_page=10">Order reprint</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                    
+    <div id="FulltextAd" class="adsbox c-ad c-ad--skyscraper">
+        <div class="c-ad__inner" data-component="sticky" data-test="fulltext-ad">
+            <p class="c-ad__label">Advertisement</p>
+            <div class="c-ad__content">
+                <span id="pbgrd-43415139"><iframe id="pbgrd-43415139-iframe" name="pbgrd-43415139-iframe" width="160px" height="600px" scrolling="no" frameborder="0" src="javascript:void((function(){var script = document.createElement(&#39;script&#39;);script.innerHTML = &quot;(function() {document.open();document.domain=&#39;biomedical-engineering-online.biomedcentral.com&#39;;document.close();})();&quot;;document.write(&quot;&lt;head&gt;&quot; + script.outerHTML + &quot;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&quot;);})())" style="border: none; width: 160px; height: 600px; margin: 0px; padding: 0px;" src="./Machine learning and medicine book review and commentary_files/saved_resource(1).html"></iframe></span>
+            </div>
+        </div>
+    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        
+            <div class="c-journal-footer">
+                <div class="c-journal-footer__inner">
+                    <div class="c-journal-footer__summary">
+                        <h4 class="c-journal-title c-journal-title--footer">
+                            
+                            <span class="c-journal-title__text">BioMedical Engineering OnLine</span>
+                        </h4>
+                         <p class="c-journal-footer__issn">ISSN: 1475-925X</p>
+                    </div>
+                    
+                        <div class="c-journal-footer__contact">
+                            <h4 class="c-journal-footer__contact-title ">Contact us</h4>
+                            <ul class="c-journal-footer__contact-list">
+                                
+                                    <li class="c-journal-footer__contact-item">Submission enquiries: <a href="https://www.editorialmanager.com/bmeo/" target="_blank">Access here and click Contact Us</a></li>
+                                
+                                
+                                    <li class="c-journal-footer__contact-item">General enquiries: <a href="mailto:info@biomedcentral.com">info@biomedcentral.com</a></li>
+                                
+                            </ul>
+                        </div>
+                    
+                </div>
+            </div>
+        
+        
+    <img rel="nofollow" class="tracker" style="display:none" src="./Machine learning and medicine book review and commentary_files/s12938-018-0449-9" alt="">
+
+         
+    <footer>
+        <div class="c-publisher-footer" data-test="publisher-footer">
+    <div class="u-container">
+        
+        <div class="c-flex c-flex--wrap c-flex--space-between" role="navigation" data-test="publisher-footer-menu">
+            <div class="c-flex" aria-label="Publisher footer links">
+                
+                    
+                        <ul class="c-list-group c-list-group--sm u-margin-right-lg u-margin-bottom-md">
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="http://blogs.biomedcentral.com/">Read more on our blogs</a>
+                                </li>
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="https://www.biomedcentral.com/login">Receive BMC newsletters</a>
+                                </li>
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="https://www.biomedcentral.com/account">Manage article alerts</a>
+                                </li>
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="https://authorservices.springernature.com/go/10BMC">Language editing for authors</a>
+                                </li>
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="http://authorservices.springernature.com/scientific-editing/">Scientific editing for authors</a>
+                                </li>
+                            
+                        </ul>
+                    
+                        <ul class="c-list-group c-list-group--sm u-margin-right-lg u-margin-bottom-md">
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="https://www.biomedcentral.com/about/policies">Policies</a>
+                                </li>
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="https://www.biomedcentral.com/accessibility">Accessibility</a>
+                                </li>
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="https://www.biomedcentral.com/about/press-centre">Press center</a>
+                                </li>
+                            
+                        </ul>
+                    
+                        <ul class="c-list-group c-list-group--sm u-margin-right-lg u-margin-bottom-md">
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="https://www.biomedcentral.com/about/contact-us">Support and Contact</a>
+                                </li>
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="https://biomedcentral.typeform.com/to/VLXboo">Leave feedback</a>
+                                </li>
+                            
+                                <li class="c-list-group__item">
+                                    <a class="u-text-inherit" href="https://www.biomedcentral.com/about/jobs">Careers</a>
+                                </li>
+                            
+                        </ul>
+                    
+                
+            </div>
+            <div class="u-margin-bottom-lg">
+                <h3 id="social-menu" class="u-text-sm u-reset-margin u-text-normal">Follow BMC</h3>
+                <ul class="c-flex u-reset-list" data-test="footer-social-links">
+                    
+                        <li class="u-margin-top-xs u-margin-right-xs">
+                            <a href="https://twitter.com/biomedcentral" class="u-text-inherit" data-track="click" data-track-action="Click Twitter link" data-track-category="Publisher footer">
+                                <span class="u-visually-hidden">BMC Twitter page</span>
+                                <svg class="c-icon" width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#icon-twitter-bordered"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="u-margin-top-xs u-margin-right-xs">
+                            <a href="https://www.facebook.com/BioMedCentral" class="u-text-inherit" data-track="click" data-track-action="Click Facebook link" data-track-category="Publisher footer">
+                                <span class="u-visually-hidden">BMC Facebook page</span>
+                                <svg class="c-icon" width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#icon-facebook-bordered"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="u-margin-top-xs u-margin-right-xs">
+                            <a href="https://plus.google.com/106226337984152901734/" class="u-text-inherit" data-track="click" data-track-action="Click Google Plus link" data-track-category="Publisher footer">
+                                <span class="u-visually-hidden">BMC Google Plus page</span>
+                                <svg class="c-icon" width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#icon-gplus-bordered"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="u-margin-top-xs u-margin-right-xs">
+                            <a href="http://www.weibo.com/biomedcentral" class="u-text-inherit" data-track="click" data-track-action="Click Weibo link" data-track-category="Publisher footer">
+                                <span class="u-visually-hidden">BMC Weibo page</span>
+                                <svg class="c-icon" width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#icon-weibo-bordered"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <p class="u-reset-margin">
+            By using this website, you agree to our
+            <a class="u-text-inherit" href="https://www.biomedcentral.com/terms-and-conditions">Terms and Conditions</a>,
+            <a class="u-text-inherit" href="https://www.biomedcentral.com/privacy-statement">Privacy
+                statement</a> and
+            <a class="u-text-inherit" href="https://www.biomedcentral.com/cookies" data-test="cookie-link">Cookies</a> policy.
+            
+                <a class="optanon-toggle-display u-text-inherit" href="javascript:void(0);">Manage the cookies</a> we use in the preference centre.
+            
+        </p>
+    </div>
+</div>
+
+        <div class="c-sn-footer c-sn-footer--neutral">
+    <div class="u-container">
+        <img src="./Machine learning and medicine book review and commentary_files/logo-springernature-8bd4e8d82f.svg" class="c-sn-footer__logo" alt="Springer Nature Logo" itemprop="logo">
+        <p data-test="copyright">© 2019 BioMed Central Ltd unless otherwise stated. Part of
+            <a href="http://www.springernature.com/" data-track="click" data-track-action="Click Springer Nature link" data-track-category="Corporate footer" itemscope="" itemtype="http://schema.org/Organization" itemid="#parentOrganization">Springer Nature</a>.
+        </p>
+    </div>
+</div>
+
+    </footer>
+
+    </div>
+
+    
+    <script type="text/javascript" src="./Machine learning and medicine book review and commentary_files/bmc.js.download" async="async"></script>
+    <noscript>
+	<img hidden src="https://verify.nature.com/verify/nature.png" border="0" width="0" height="0" style="display: none">
+</noscript>
+
+    
+
+
+<iframe src="./Machine learning and medicine book review and commentary_files/saved_resource(2).html" title="EventTracker" id="event-tracker" height="0" width="0" style="display:none; visibility:hidden" aria-hidden="true" tabindex="-1"></iframe><script type="text/javascript" id="polyfill-matches">Element.prototype.matches||(Element.prototype.matches=Element.prototype.matchesSelector||Element.prototype.mozMatchesSelector||Element.prototype.msMatchesSelector||Element.prototype.oMatchesSelector||Element.prototype.webkitMatchesSelector||function(a){a=(this.document||this.ownerDocument).querySelectorAll(a);for(var b=a.length;0<=--b&&a.item(b)!==this;);return-1<b});</script><script type="text/javascript" id="gpt-control" src="./Machine learning and medicine book review and commentary_files/gpt.js.download"></script><script type="text/javascript" id="krux-control-bmc">window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===location.protocol?"https:":"http:")+"//cdn.krxd.net/controltag/KDqylSLE.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script><script type="text/javascript" id="krux-interchange-bmc">window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);(function(){function c(a){a="kxmacmillan_"+a;try{var b=window.localStorage}catch(e){b=null}return b?b[a]||"":navigator.cookieEnabled?(b=document.cookie.match(a+"\x3d([^;]*)"))&&unescape(b[1])||"":""}Krux.user=c("user");Krux.segments=c("segs")?c("segs").split(","):[];var a=[];Krux.user&&a.push("kuid\x3d"+Krux.user);for(var d=0;d<Krux.segments.length;d++)a.push("ksg\x3d"+Krux.segments[d]);Krux.dfppKeyValues=a.length?a.join(";")+";":""})();</script><script type="text/javascript" id="krux-consent">var allowed=google_tag_manager["GTM-TDGJHK"].macro(27);allowed=!0===allowed?1:0;Krux("consent:set",{dc:allowed,al:allowed,tg:allowed,cd:!1,sh:!1,re:!1},function(a,b){});</script><script type="text/javascript" id="gpt-retrieve-ads">function splitKeys(a){var d=[],e="",g=[],h=a.split(";");for(a=0;a<h.length;++a){void 0!==k&&(e=k);var b=h[a].split("\x3d");var k=b[0];k!==e&&(0<e.length&&0<d.length&&g.push([e,d]),d=[]);if(2===b.length&&""!==b[0]&&""!==b[1]){var c=b[1].split(",");for(b=0;b<c.length;++b)d.push(c[b])}}0<k.length&&0<d.length&&g.push([k,d]);return g}
+function splitSizes(a){var d=[];if(null!==a){var e=0<=a.indexOf("|")?a.split("|"):a.split(",");for(a=0;a<e.length;++a){var g=e[a].split("x");var h=parseInt(g[0],10);var b=parseInt(g[1],10);2===g.length&&!isNaN(h)&&!isNaN(b)&&0<=h&&0<=b&&d.push([h,b])}}return d}function debounce(a,d){var e=null,g=null;return function(){var h=this,b=Number(new Date),k=arguments;e&&b<e+d?(clearTimeout(g),g=setTimeout(function(){e=b;a.apply(h,k)},d)):(e=b,a.apply(h,k))}}
+function addScrollEvent(a){window.addEventListener?window.addEventListener("scroll",a,!1):window.attachEvent("onscroll",a)}function removeScrollEvent(a){window.removeEventListener?window.removeEventListener("scroll",a,!1):window.detachEvent("scroll",a)}function getAdContainers(){return document.querySelectorAll("div[data-gpt-unitpath]")}function isLoggedIn(){return 0<=document.cookie.indexOf("OSCAR_SESSION_COOKIE")?"logged\x3dy;":"logged\x3dn;"}
+(function(a,d){function e(f){var a="test";a=a.replace(/[\[\]]/g,"\\$\x26");a=new RegExp("[?\x26]"+a+"(\x3d([^\x26#]*)|\x26|#|$)");a=(a=a.exec(window.location.href))?a[2]?decodeURIComponent(a[2].replace(/\+/g," ")):"":null;a=a&&"ads"===a?"adtype\x3dtest;":"";f=f.getAttribute("data-gpt-targeting");var c=document.querySelector("[data-ad-targeting-search-terms]")?"search\x3d"+document.querySelector("[data-ad-targeting-search-terms]").innerText+";":!1;var d=isLoggedIn();a&&-1===f.indexOf(a)&&(f+=a);c&&
+(f+=c);return f+d+b}function g(a,c){for(var f=a.length,b=[];f--;)c(a[f],f)&&(b.push(a[f].slot),a.splice(f,1));b.length&&googletag.pubads().refresh(b);return a}function h(f){var c=Math.max(document.documentElement.clientHeight,a.innerHeight||0);return g(f,function(a){a=document.getElementById(a.divId);a=a.getBoundingClientRect();a=a.top-300;return c>a})}var b,k=getAdContainers(),c=[];d&&(b=d.dfppKeyValues?d.dfppKeyValues:"");a.googletag=a.googletag||{};a.googletag.cmd=a.googletag.cmd||[];for(var m=
+0;k[m];++m){var l=k[m];splitKeys(e(l));c.push({divId:l.getAttribute("id"),adUnitPath:l.getAttribute("data-gpt-unitpath"),sizeArray:splitSizes(l.getAttribute("data-gpt-sizes")),targeting:splitKeys(e(l))})}googletag.cmd.push(function(){googletag.pubads().setRequestNonPersonalizedAds(google_tag_manager["GTM-TDGJHK"].macro(31)?0:1);googletag.pubads().disableInitialLoad();googletag.enableServices()});googletag.cmd.push(function(){for(var a=0;c[a];++a)try{c[a].slot=googletag.defineSlot(c[a].adUnitPath,c[a].sizeArray,c[a].divId).addService(googletag.pubads());
+for(var b=0,d=c[a].targeting.length;b<d;++b)2===c[a].targeting[b].length&&""!==c[a].targeting[b][0]&&""!==c[a].targeting[b][1]&&c[a].slot.setTargeting(c[a].targeting[b][0],c[a].targeting[b][1])}catch(p){console.log("failed to create slot for",c[a])}});googletag.cmd.push(function(){for(var a=0;c[a];++a)googletag.display(c[a].divId)});googletag.cmd.push(function(){c=h(c)});var n=debounce(function(){googletag.cmd.push(function(){c=h(c);c.length||removeScrollEvent(n)})},250);addScrollEvent(n)})(window,
+window.Krux);</script>
+
+<script type="text/javascript" id="ga-data-track-event-listeners">function addEvent(b){document.addEventListener(b,function(a){a=a.target;var c='[data-track\x3d"'+b+'"]';a=google_tag_manager["GTM-TDGJHK"].macro(39)(a,c);void 0!==a&&dataLayer.push({event:"data-track",eventAction:a.getAttribute("data-track-action"),eventCategory:a.getAttribute("data-track-category"),eventLabel:a.getAttribute("data-track-label")||null,eventValue:a.getAttribute("data-track-value")||null})},!0)}(function(){addEvent("click");addEvent("submit")})();</script><script type="text/javascript" id="crossmark-script" src="./Machine learning and medicine book review and commentary_files/widget.js.download"></script><script type="text/javascript" id="recommended-script" src="./Machine learning and medicine book review and commentary_files/entry-point.js.download"></script><script type="text/javascript" id="">(function(){var a=document,b=a.createElement("script");f=a.getElementsByTagName("script")[0];b.src="//s3.amazonaws.com/ki.js/47412/aC6.js";f.parentNode.insertBefore(b,f)})();</script><iframe id="google_osd_static_frame_2893670256536" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./Machine learning and medicine book review and commentary_files/saved_resource(3).html"></iframe><iframe frameborder="0" scrolling="no" src="./Machine learning and medicine book review and commentary_files/client.html" name="uptodate-client" id="uptodate-client" title="Personalised recommendations" allowtransparency="true" style="width: 80px; height: 80px; bottom: 0px; right: 0px; z-index: 100000; position: fixed;"></iframe><iframe id="qualaroo_dnt_frame" src="./Machine learning and medicine book review and commentary_files/frame.html" style="width: 1px; height: 1px; display: none; opacity: 0;"></iframe><div id="optanon" class="modern"><div id="optanon-popup-bg"></div><div id="optanon-popup-wrapper" role="dialog" aria-modal="true" tabindex="-1" lang="en-GB"><div id="optanon-popup-top"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Close Button&#39;);" class="optanon-close-link optanon-close optanon-close-ui" title="Close Preference Centre"><div id="optanon-close" style="background: url(https://optanon.blob.core.windows.net/skins/default_flat_bottom_two_button_white/v2/images/optanon-pop-up-close.png);width:34px;height:34px;"></div></a></div><div id="optanon-popup-body"><div id="optanon-popup-body-left"><div id="optanon-popup-body-left-shading"></div><div id="optanon-branding-top-logo" style="background-image: url(https://optanon.blob.core.windows.net/logos/5138/5138:biomedcentral.com/bmc-logo.png) !important;"></div><ul id="optanon-menu"><li class="menu-item-on menu-item-about" title="Your Privacy"><p><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#">Your Privacy</a></p></li><li class="menu-item-necessary menu-item-on" title="Strictly Necessary Cookies"><p><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#">Strictly Necessary Cookies</a></p></li><li class="menu-item-on menu-item-performance" title="Performance &amp; Analytics Cookies"><p><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#">Performance &amp; Analytics Cookies</a></p></li><li class="menu-item-on menu-item-functional" title="Functional Cookies"><p><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#">Functional Cookies</a></p></li><li class="menu-item-on menu-item-advertising" title="Targeting Cookies"><p><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#">Targeting Cookies</a></p></li><li class="menu-item-moreinfo menu-item-off" title="More Information"><p><a target="_blank" href="https://www.biomedcentral.com/cookies" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Cookie Policy&#39;);">More Information</a></p></li></ul></div><div id="optanon-popup-body-right"><h2 aria-label="true">Privacy Preference Centre</h2><h3></h3><div id="optanon-popup-more-info-bar"><div class="optanon-status"><div class="optanon-status-editable"><form><fieldset><p><input type="checkbox" value="check" id="chkMain" checked="" class="optanon-status-checkbox"><label for="chkMain">Active</label></p></fieldset></form></div><div class="optanon-status-always-active optanon-status-on"><p>Always Active</p></div></div></div><div id="optanon-main-info-text"></div></div><div class="optanon-bottom-spacer"></div></div><div id="optanon-popup-bottom"> <a href="https://onetrust.com/poweredbyonetrust" target="_blank"><div id="optanon-popup-bottom-logo" style="background: url(https://optanon.blob.core.windows.net/skins/default_flat_bottom_two_button_white/v2/images/cookie-collective-top-bottom.png);width:155px;height:35px;" title="powered by OneTrust"></div></a><div class="optanon-button-wrapper optanon-save-settings-button optanon-close optanon-close-consent"><div class="optanon-white-button-left"></div><div class="optanon-white-button-middle"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Save Settings&#39;);">Save Settings</a></div><div class="optanon-white-button-right"></div></div><div class="optanon-button-wrapper optanon-allow-all-button optanon-allow-all" style="display: none;"><div class="optanon-white-button-left"></div><div class="optanon-white-button-middle"><a href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Allow All&#39;);">Allow All</a></div><div class="optanon-white-button-right"></div></div></div></div></div><div class="optanon-alert-box-wrapper  " style="display:none"><div class="optanon-alert-box-bottom-top"><div class="optanon-alert-box-corner-close"><a class="optanon-alert-box-close" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#" title="Close Banner" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Banner Close Button&#39;);"></a></div></div><div class="optanon-alert-box-bg"><div class="optanon-alert-box-logo"> </div><div class="optanon-alert-box-body"><p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our <a href="https://www.biomedcentral.com/privacy-statement">Privacy Statement</a>. You can manage your preferences in 'Manage Cookies'.</p></div><div class="optanon-clearfix"></div><div class="optanon-alert-box-button-container"><div class="optanon-alert-box-button optanon-button-close"><div class="optanon-alert-box-button-middle"><a class="optanon-alert-box-close" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#">Close</a></div></div><div class="optanon-alert-box-button optanon-button-allow"><div class="optanon-alert-box-button-middle"><a class="optanon-allow-all" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Banner Accept Cookies&#39;);">OK</a></div></div><div class="optanon-alert-box-button optanon-button-more"><div class="optanon-alert-box-button-middle"><a class="optanon-toggle-display" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-018-0449-9#" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Banner Open Preferences&#39;);">Manage Cookies</a></div></div></div><div class="optanon-clearfix optanon-alert-box-bottom-padding"></div></div></div><div class="kxhead" data-id="KDqylSLE" style="display:none !important;"><span class="kxtag kxinvisible" data-id="20636"><script>
+// this tag is intentionally blank
+</script></span><span class="kxtag kxinvisible" data-id="20637"></span><span class="kxtag kxinvisible" data-id="20638"></span><span class="kxtag kxinvisible" data-id="20651"><script type="text/javascript">Krux('social.init');</script></span><span class="kxtag kxinvisible" data-id="36251"><script>
+(function() {
+    /* Selective Attribute DataLayer Library Tag */
+    var _, allAttr, allowedList, attr, attributes, dataLayerIngester, dataObj,
+        isAllowed, keepCase, normalizeName, omitKeys, optimizeNames, pageAttr, prefix,
+        toSet, trim, userAttr, value,
+        hasProp = {}.hasOwnProperty;
+    _ = Krux('require:underscore');
+    dataLayerIngester = Krux('require:scrape').ingestDataLayer;
+
+    /* Safe copy of dataLayer object */
+    dataObj = Krux('scrape.javascript', 'dataLayer[0]');
+
+    /* String trimming helper function */
+    trim = function(attr) {
+        return ("" + attr).replace(/^\s+|\s+$/g, '');
+    };
+
+    /* Attribute configs */
+    pageAttr = _.map('content.article.keywords,content.journal.title,content.category.publishingSegment,content.contentInfo.imprint,content.contentInfo.title,content.category.pmc.primarySubject,content.article.doi,content.article.articleType,content.category.contentType,content.category.contentSubType1,content.contentInfo.author,content.category.subjectType,content.category.subjectSubType1,content.authorization.type,content.attributes.keywords,content.contentInfo.collection[n].collectionName,content.article.journalIssueName,product.productInfo.brand,product.category.productType,product.productInfo.productName,product.productInfo.sku'.split(','), trim);
+    userAttr = _.map('user.segment.subscriberMind,user.segment.subscriberSA,user.segment.customer,user.segment.registered,user.segment.appUserSAuser.segment.appUserMind'.split(','), trim);
+
+    /* Create a array of attributes striping any empty strings */
+    allAttr = _.without(pageAttr.concat(userAttr), '');
+
+    /* Configuration settings */
+    keepCase = 'true' === 'true';
+    omitKeys = 'undefined'.split(',');
+    prefix = "_";
+    var domain = location.host.split('.'); //Assumption that the array can have max length of 4 eg. www.subdomain.domain.com
+    if (domain.length === 4 && domain[0] === 'www') {
+        prefix = domain[2] + '_';
+    } else if (domain.length === 2) {
+        prefix = domain[0] + '_';
+    } else {
+        prefix = domain[1] + '_';
+    }
+
+
+    /* Function to varify if attribute should be used */
+    isAllowed = function(value, whitelist) {
+        var i, len, str, x;
+        str = "" + value;
+        if (!((value !== null) && str.length > 0)) {
+            return false;
+        }
+        for (i = 0, len = whitelist.length; i < len; i++) {
+            x = whitelist[i];
+            if (value.match(x) !== null) {
+                return true;
+            }
+        }
+        return false;
+    };
+
+    /* Function to standardise the attribute names */
+    normalizeName = function(name, optimize) {
+        if (optimize === null) {
+            optimize = false;
+        }
+        if (keepCase) {
+            return name;
+        }
+        return ("" + name).replace(/([A-Z])([A-Z]+)/g, function(full, first, rest) {
+            if (optimize === true) {
+                return "" + first + (rest.toLowerCase());
+            }
+            return "" + full;
+        }).replace(/_*([A-Z])/g, '_$1').replace(/^_/, '').toLowerCase();
+    };
+
+    /* Creates a pattern/replacement config for dataLayer tool to clean up names */
+    optimizeNames = function(names) {
+        var config, i, len, name;
+        config = [{
+            pattern: /(\.)_/,
+            replacement: '$1'
+        }];
+        for (i = 0, len = names.length; i < len; i++) {
+            name = names[i];
+            config.push({
+                pattern: normalizeName(name),
+                replacement: normalizeName(name, true)
+            });
+        }
+        if (!prefix.match(/^_$|null|undefined|false/)) {
+            config.push({
+                pattern: /((?:page|user)_attr_)/,
+                replacement: "$1" + prefix
+            });
+
+        }
+        return config;
+    };
+
+    /* Get a full list of attributes usting the dataLayer tool */
+    attributes = dataLayerIngester(dataObj, {
+        omitKeys: _.without(omitKeys.concat([/gtm\./, /sessionid/i,
+            /\.phpsessid$/i, /\.sid$/i, /\.zenid$/i,
+            /\.requestid$/i
+        ]), ''),
+        omitValues: [/.*@.*(?:\..*)+/, /gtm\./, /^(https?:)?\/\/[^\/]+/,
+            /^\/[^\/]+/, /.{255}/
+        ],
+        caseSensitive: keepCase,
+        useFullPath: 'true' === 'true',
+        useLastValue: 'false' === 'true',
+        customDelimited: [/./],
+        altDelimiter: ',',
+        userKeys: _.map(userAttr, function(exp) {
+            return new RegExp("(^|\\.)" + exp + "$");
+        }),
+        convertAttrNames: optimizeNames(allAttr)
+    });
+
+
+    /* Only set Attributes in the allowed list */
+    allowedList = _.map(allAttr, function(name) {
+        return new RegExp("(_attr_|_attr_" + prefix + "|\\.)" + (
+            normalizeName(name, true)) + "$");
+    });
+    toSet = {};
+    for (attr in attributes) {
+        if (!hasProp.call(attributes, attr)) continue;
+        value = attributes[attr];
+        if (isAllowed(attr, allowedList)) {
+            toSet[attr] = value;
+        }
+    }
+    Krux('set', toSet);
+
+})();
+</script></span></div></body><iframe id="kx-proxy-KDqylSLE" src="./Machine learning and medicine book review and commentary_files/proxy.3d2100fd7107262ecb55ce6847f01fa5.html" style="display: none; visibility: hidden; height: 0; width: 0;"></iframe></html>

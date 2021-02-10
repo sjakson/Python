@@ -1,0 +1,3 @@
+var pgAd = '';
+pgAd += "<"+"script src=\"https://www.googletagservices.com/tag/js/gpt.js\">googletag.pubads().definePassback(\"/149443272/185010912\", [160, 600]).setTargeting(\"pg_camp\", [\"pgc_6771_6201\", \"pgc_7369_6077\", \"pgc_7735_6759\", \"pgc_6069_5965\", \"pgc_5717_6727\"]).setTargeting(\"pgpro\", \"2\").setTargeting(\"pgpid\", \"10.1186%2Fs12938-018-0449-9\").setTargeting(\"pgiid\", \"1549789315010019735086094101186s1293801804499\").setTargeting(\"pgzid\", \"94\").setTargeting(\"pgpub\", \"2\").setTargeting(\"pgscrh\", 720).setTargeting(\"pgscrw\", 1280).setTargeting(\"pgtrgtype\", \"content\").setTargeting(\"pgtrgtime\", \"1549789315009\").setTargeting(\"pgjour\", \"BioMedical Engineering OnLine\").display();<"+"/script>\n";
+document.write(pgAd);
